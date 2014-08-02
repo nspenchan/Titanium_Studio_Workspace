@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.appcelerator.titanium.mobile.ui.ios.packager.launchConfigurationType">
+<booleanAttribute key="ATTR_MINIFY" value="true"/>
+<stringAttribute key="ATTR_PROJECT_NAME" value="kokucyKango"/>
+<stringAttribute key="appid" value="com.kokucy.kango"/>
+<stringAttribute key="certificate" value="YUKIKO NAGAOKA (639T6XEK8C)"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/kokucyKango"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.debug.core.capture_output" value="true"/>
+<booleanAttribute key="org.eclipse.debug.ui.ATTR_LAUNCH_IN_BACKGROUND" value="true"/>
+<stringAttribute key="process_factory_id" value="com.appcelerator.titanium.ui.logLevelFilteringProcessFactory"/>
+<stringAttribute key="sdk_version" value="7.1"/>
+<stringAttribute key="uuid" value="6DA88469-6D4B-4A74-88B6-4FD5B6B46352"/>
+</launchConfiguration>

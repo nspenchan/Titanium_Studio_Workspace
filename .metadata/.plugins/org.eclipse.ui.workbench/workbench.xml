@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench version="2.0">
+<workbenchAdvisor/>
+<window height="874" maximized="true" width="1440" x="7" y="38">
+<fastViewData fastViewLocation="1024">
+<orientation position="512" view="org.eclipse.ui.console.ConsoleView"/>
+<orientation position="512" view="org.eclipse.ui.views.ContentOutline"/>
+</fastViewData>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="0" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.appcelerator.titanium.ui.ide.tiappEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.js" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.aptana.ui.globalActionSet" itemType="typeToolBarContribution" x="0" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="0" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="0" y="22"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="0" y="22"/>
+<coolItem id="com.appcelerator.titanium.editor.tss" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.xml.alloy" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="152" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="com.aptana.editor.css" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.html" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.appcelerator.titanium.editor.jss" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.text" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page focus="true" label="Workspace - Studio">
+<editors>
+<editorArea activeWorkbook="org.eclipse.ui.internal.EditorStack@1fc68d">
+<info part="org.eclipse.ui.internal.EditorStack@1fc68d">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="2"/>
+<part id="3"/>
+<part id="1"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+<part id="16"/>
+<part id="17"/>
+<part id="18"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.internal.EditorStack@1530215" ratio="0.5" ratioLeft="703" ratioRight="703" relationship="2" relative="org.eclipse.ui.internal.EditorStack@1fc68d">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="com.aptana.editor.js" name="Settings.js" partName="Settings.js" path="/Users/kokucy/Documents/Titanium_Studio_Workspace/yontakuAnimal/Resources/ui/common/Settings.js" title="Settings.js" tooltip="yontakuAnimal/Resources/ui/common/Settings.js" workbook="org.eclipse.ui.internal.EditorStack@1fc68d">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/yontakuAnimal/Resources/ui/common/Settings.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="32" selectionOffset="231" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.js" name="Effect.js" partName="Effect.js" path="/Users/kokucy/Documents/Titanium_Studio_Workspace/yontakuAnimal/Resources/ui/common/Effect.js" title="Effect.js" tooltip="yontakuAnimal/Resources/ui/common/Effect.js" workbook="org.eclipse.ui.internal.EditorStack@1fc68d">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/yontakuAnimal/Resources/ui/common/Effect.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="628" selectionTopPixel="100"/>
+</editor>
+<editor id="com.aptana.editor.js" name="Words.js" partName="Words.js" path="/Users/kokucy/Documents/Titanium_Studio_Workspace/yontakuAnimal/Resources/ui/common/Words.js" title="Words.js" tooltip="yontakuAnimal/Resources/ui/common/Words.js" workbook="org.eclipse.ui.internal.EditorStack@1fc68d">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/yontakuAnimal/Resources/ui/common/Words.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1632" selectionTopPixel="1511"/>
+</editor>
+<editor id="com.aptana.editor.js" name="User.js" partName="User.js" path="/Users/kokucy/Documents/Titanium_Studio_Workspace/yontakuAnimal/Resources/ui/common/User.js" title="User.js" tooltip="yontakuAnimal/Resources/ui/common/User.js" workbook="org.eclipse.ui.internal.EditorStack@1fc68d">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/yontakuAnimal/Resources/ui/common/User.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="22" selectionOffset="3515" selectionTopPixel="3325"/>
+</editor>
+<editor id="com.aptana.editor.js" name="Music.js" partName="Music.js" path="/Users/kokucy/Documents/Titanium_Studio_Workspace/yontakuAnimal/Resources/ui/common/Music.js" title="Music.js" tooltip="yontakuAnimal/Resources/ui/common/Music.js" workbook="org.eclipse.ui.internal.EditorStack@1fc68d">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/yontakuAnimal/Resources/ui/common/Music.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4341" selectionTopPixel="3630"/>
+</editor>
+<editor id="com.aptana.editor.js" name="Fontsize.js" partName="Fontsize.js" path="/Users/kokucy/Documents/Titanium_Studio_Workspace/yontakuAnimal/Resources/ui/common/Fontsize.js" title="Fontsize.js" tooltip="yontakuAnimal/Resources/ui/common/Fontsize.js" workbook="org.eclipse.ui.internal.EditorStack@1fc68d">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/yontakuAnimal/Resources/ui/common/Fontsize.js"/>
+<editorState selectionHorizontalPixel="117" selectionLength="0" selectionOffset="2535" selectionTopPixel="1790"/>
+</editor>
+<editor id="com.aptana.editor.js" name="Levelup.js" partName="Levelup.js" path="/Users/kokucy/Documents/Titanium_Studio_Workspace/yontakuAnimal/Resources/ui/common/Levelup.js" title="Levelup.js" tooltip="yontakuAnimal/Resources/ui/common/Levelup.js" workbook="org.eclipse.ui.internal.EditorStack@1fc68d">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/yontakuAnimal/Resources/ui/common/Levelup.js"/>
+<editorState selectionHorizontalPixel="1358" selectionLength="0" selectionOffset="2583" selectionTopPixel="2050"/>
+</editor>
+<editor id="com.aptana.editor.js" name="Hint.js" partName="Hint.js" path="/Users/kokucy/Documents/Titanium_Studio_Workspace/yontakuAnimal/Resources/ui/common/Hint.js" title="Hint.js" tooltip="yontakuAnimal/Resources/ui/common/Hint.js" workbook="org.eclipse.ui.internal.EditorStack@1fc68d">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/yontakuAnimal/Resources/ui/common/Hint.js"/>
+<editorState selectionHorizontalPixel="1099" selectionLength="0" selectionOffset="2534" selectionTopPixel="2025"/>
+</editor>
+<editor id="com.aptana.editor.js" name="Store.js" partName="Store.js" path="/Users/kokucy/Documents/Titanium_Studio_Workspace/yontakuAnimal/Resources/ui/common/Store.js" title="Store.js" tooltip="yontakuAnimal/Resources/ui/common/Store.js" workbook="org.eclipse.ui.internal.EditorStack@1fc68d">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/yontakuAnimal/Resources/ui/common/Store.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5828" selectionTopPixel="5722"/>
+</editor>
+<editor id="com.aptana.editor.js" name="app.js" partName="app.js | Resources" path="/Users/kokucy/Documents/Titanium_Studio_Workspace/yontakuAnimal/Resources/app.js" title="app.js | Resources" tooltip="yontakuAnimal/Resources/app.js" workbook="org.eclipse.ui.internal.EditorStack@1fc68d">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/yontakuAnimal/Resources/app.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="31" selectionOffset="683" selectionTopPixel="2764"/>
+</editor>
+<editor id="com.aptana.editor.js" name="Info.js" partName="Info.js" path="/Users/kokucy/Documents/Titanium_Studio_Workspace/yontakuAnimal/Resources/ui/common/Info.js" title="Info.js" tooltip="yontakuAnimal/Resources/ui/common/Info.js" workbook="org.eclipse.ui.internal.EditorStack@1fc68d">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/yontakuAnimal/Resources/ui/common/Info.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="21" selectionOffset="2035" selectionTopPixel="2000"/>
+</editor>
+<editor id="com.aptana.editor.js" name="Movie.js" partName="Movie.js" path="/Users/kokucy/Documents/Titanium_Studio_Workspace/yontakuAnimal/Resources/ui/common/Movie.js" title="Movie.js" tooltip="yontakuAnimal/Resources/ui/common/Movie.js" workbook="org.eclipse.ui.internal.EditorStack@1fc68d">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/yontakuAnimal/Resources/ui/common/Movie.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="833" selectionTopPixel="400"/>
+</editor>
+<editor id="com.aptana.editor.js" name="Feature.js" partName="Feature.js" path="/Users/kokucy/Documents/Titanium_Studio_Workspace/yontakuAnimal/Resources/ui/common/Feature.js" title="Feature.js" tooltip="yontakuAnimal/Resources/ui/common/Feature.js" workbook="org.eclipse.ui.internal.EditorStack@1fc68d">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/yontakuAnimal/Resources/ui/common/Feature.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4850" selectionTopPixel="3649"/>
+</editor>
+<editor id="com.aptana.editor.js" name="Howto.js" partName="Howto.js" path="/Users/kokucy/Documents/Titanium_Studio_Workspace/yontakuAnimal/Resources/ui/common/Howto.js" title="Howto.js" tooltip="yontakuAnimal/Resources/ui/common/Howto.js" workbook="org.eclipse.ui.internal.EditorStack@1fc68d">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/yontakuAnimal/Resources/ui/common/Howto.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4827" selectionTopPixel="3726"/>
+</editor>
+<editor id="com.aptana.editor.xml.alloy" name="strings.xml" partName="strings.xml | en" path="/Users/kokucy/Documents/Titanium_Studio_Workspace/yontakuAnimal/i18n/en/strings.xml" title="strings.xml | en" tooltip="yontakuAnimal/i18n/en/strings.xml" workbook="org.eclipse.ui.internal.EditorStack@1fc68d">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/yontakuAnimal/i18n/en/strings.xml"/>
+<editorState selectionHorizontalPixel="610" selectionLength="0" selectionOffset="1429" selectionTopPixel="375"/>
+</editor>
+<editor id="com.aptana.editor.xml.alloy" name="strings.xml" partName="strings.xml | ja" path="/Users/kokucy/Documents/Titanium_Studio_Workspace/yontakuAnimal/i18n/ja/strings.xml" title="strings.xml | ja" tooltip="yontakuAnimal/i18n/ja/strings.xml" workbook="org.eclipse.ui.internal.EditorStack@1fc68d">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/yontakuAnimal/i18n/ja/strings.xml"/>
+<editorState selectionHorizontalPixel="150" selectionLength="0" selectionOffset="1241" selectionTopPixel="815"/>
+</editor>
+<editor id="com.aptana.editor.js" name="Photo.js" partName="Photo.js" path="/Users/kokucy/Documents/Titanium_Studio_Workspace/yontakuAnimal/Resources/ui/common/Photo.js" title="Photo.js" tooltip="yontakuAnimal/Resources/ui/common/Photo.js" workbook="org.eclipse.ui.internal.EditorStack@1fc68d">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/yontakuAnimal/Resources/ui/common/Photo.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="371" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.js" name="FirstView.js" partName="FirstView.js" path="/Users/kokucy/Documents/Titanium_Studio_Workspace/yontakuAnimal/Resources/ui/common/FirstView.js" title="FirstView.js" tooltip="yontakuAnimal/Resources/ui/common/FirstView.js" workbook="org.eclipse.ui.internal.EditorStack@1fc68d">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/yontakuAnimal/Resources/ui/common/FirstView.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3909" selectionTopPixel="3538"/>
+</editor>
+<editor focus="true" id="com.aptana.editor.js" name="FinalView.js" partName="FinalView.js" path="/Users/kokucy/Documents/Titanium_Studio_Workspace/yontakuAnimal/Resources/ui/common/FinalView.js" title="FinalView.js" tooltip="yontakuAnimal/Resources/ui/common/FinalView.js" workbook="org.eclipse.ui.internal.EditorStack@1530215">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/yontakuAnimal/Resources/ui/common/FinalView.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8222" selectionTopPixel="10266"/>
+</editor>
+<editor id="com.aptana.editor.js" name="History.js" partName="History.js" path="/Users/kokucy/Documents/Titanium_Studio_Workspace/yontakuAnimal/Resources/ui/common/History.js" title="History.js" tooltip="yontakuAnimal/Resources/ui/common/History.js" workbook="org.eclipse.ui.internal.EditorStack@1530215">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/yontakuAnimal/Resources/ui/common/History.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="1" selectionOffset="2895" selectionTopPixel="2907"/>
+</editor>
+<editor id="com.aptana.editor.js" name="Question.js" partName="Question.js" path="/Users/kokucy/Documents/Titanium_Studio_Workspace/yontakuAnimal/Resources/ui/common/Question.js" title="Question.js" tooltip="yontakuAnimal/Resources/ui/common/Question.js" workbook="org.eclipse.ui.internal.EditorStack@1530215">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/yontakuAnimal/Resources/ui/common/Question.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8298" selectionTopPixel="8169"/>
+</editor>
+<editor id="com.appcelerator.titanium.ui.ide.tiappEditor" name="tiapp.xml" partName="TiApp Editor" path="/Users/kokucy/Documents/Titanium_Studio_Workspace/yontakuAnimal/tiapp.xml" title="TiApp Editor" tooltip="yontakuAnimal/tiapp.xml" workbook="org.eclipse.ui.internal.EditorStack@1530215">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/yontakuAnimal/tiapp.xml"/>
+</editor>
+<editor id="com.aptana.editor.js" name="Time.js" partName="Time.js" path="/Users/kokucy/Documents/Titanium_Studio_Workspace/yontakuAnimal/Resources/ui/common/Time.js" title="Time.js" tooltip="yontakuAnimal/Resources/ui/common/Time.js" workbook="org.eclipse.ui.internal.EditorStack@1530215">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/yontakuAnimal/Resources/ui/common/Time.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2823" selectionTopPixel="2066"/>
+</editor>
+<editor id="com.aptana.editor.js" name="Photo_android.js" partName="Photo_android.js" path="/Users/kokucy/Documents/Titanium_Studio_Workspace/yontakuAnimal/Resources/ui/common/Photo_android.js" title="Photo_android.js" tooltip="yontakuAnimal/Resources/ui/common/Photo_android.js" workbook="org.eclipse.ui.internal.EditorStack@1530215">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/yontakuAnimal/Resources/ui/common/Photo_android.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3264" selectionTopPixel="3468"/>
+</editor>
+<editor id="com.aptana.editor.js" name="app.js" partName="app.js" title="app.js" tooltip="/Users/kokucy/Downloads/fh.imagefactory-master/android/example/app.js" workbook="org.eclipse.ui.internal.EditorStack@1530215">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Users/kokucy/Downloads/fh.imagefactory-master/android/example/app.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="99" selectionTopPixel="2575"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="com.aptana.explorer.view" partName="App Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" GitChangedFilesFilterEnabled="" activeProject="yontakuAnimal">
+<project name="Kitchen Sink">&#x0A;<selection>&#x0A;<element path="/Kitchen Sink/tiapp.xml"/>
+</selection>
+</project>
+<project name="cheerslide">&#x0A;<expanded>&#x0A;<element path="/cheerslide/i18n"/>
+<element path="/cheerslide/i18n/ja"/>
+<element path="/cheerslide/Resources"/>
+<element path="/cheerslide/Resources/assets"/>
+<element path="/cheerslide/Resources/assets/html"/>
+<element path="/cheerslide/Resources/assets/html/en"/>
+</expanded>
+<selection>&#x0A;<element path="/cheerslide/Resources/assets/html/en/index.html"/>
+</selection>
+</project>
+<project name="classsic">&#x0A;<expanded>&#x0A;<element path="/classsic/Resources"/>
+<element path="/classsic/Resources/lib"/>
+<element path="/classsic/Resources/ui"/>
+</expanded>
+<selection>&#x0A;<element path="/classsic/Resources/ui/win3.js"/>
+</selection>
+</project>
+<project name="kokucy_template">&#x0A;<selection>&#x0A;<element path="/Kitchen Sink"/>
+</selection>
+</project>
+<project name="tabgroup">&#x0A;<selection>&#x0A;<element path="/yontakuAnimal"/>
+</selection>
+</project>
+<project name="testapp">&#x0A;<selection>&#x0A;<element path="/Kitchen Sink"/>
+</selection>
+</project>
+<project name="yontakuAnimal">&#x0A;<expanded>&#x0A;<element path="/yontakuAnimal/i18n"/>
+<element path="/yontakuAnimal/i18n/en"/>
+<element path="/yontakuAnimal/Resources"/>
+<element path="/yontakuAnimal/Resources/assets"/>
+</expanded>
+<selection>&#x0A;<element path="/yontakuAnimal/i18n/en/strings.xml"/>
+</selection>
+</project>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="com.appcelerator.titanium.ui.browser.dashboard" activePerspective="com.appcelerator.titanium.ui.StudioPerspective">
+<perspective editorAreaTrimState="1" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.appcelerator.titanium.ui.perspectives.TitaniumStudioPerspectiveFactory" id="com.appcelerator.titanium.ui.StudioPerspective" label="Studio"/>
+<alwaysOnActionSet id="com.aptana.browser.actionSet"/>
+<alwaysOnActionSet id="org.chromium.debug.ui.actionSets"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.presentation"/>
+<alwaysOnActionSet id="com.aptana.ui.globalActionSet"/>
+<alwaysOnActionSet id="com.aptana.terminal.actionSet"/>
+<alwaysOnActionSet id="com.aptana.editor.common.presentation"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="com.aptana.js.debug.ui.actionSet"/>
+<show_view_action id="com.aptana.explorer.view"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<new_wizard_action id="com.aptana.ui.wizards.NewNodeJSProject"/>
+<new_wizard_action id="com.appcelerator.titanium.mobile.project_wizard"/>
+<new_wizard_action id="com.appcelerator.titanium.mobile.module.wizard"/>
+<new_wizard_action id="com.aptana.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="com.aptana.ui.WebPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<fastViews>
+<view id="org.eclipse.ui.views.ContentOutline" ratio="0.29871976"/>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.7731152"/>
+</fastViews>
+<fastViewBars>
+<fastViewBar fastViewLocation="16384" id="leftArea" orientation="512" selectedTabId="org.eclipse.ui.navigator.ProjectExplorer" style="1">
+<fastViews>
+<view id="com.aptana.explorer.view" ratio="0.29871976"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" ratio="0.29871976"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
+<layout>
+<mainWindow>
+<info folder="true" part="leftArea">
+<folder appearance="2" expanded="2">
+<page content="com.aptana.explorer.view" label="LabelNotFound"/>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<page content="com.aptana.ui.io.remoteview" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7496444" ratioLeft="1054" ratioRight="352" relationship="2" relative="leftArea">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.19985776" ratioLeft="281" ratioRight="1125" relationship="2" relative="leftArea"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@15b5a7d" ratio="0.74938875" ratioLeft="613" ratioRight="205" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="com.aptana.terminal.views.terminal:*" label="LabelNotFound"/>
+<page content="com.aptana.terminal.views.terminal" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<page content="com.aptana.webserver.ui.view" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="bottomLeft" ratio="0.74938875" ratioLeft="613" ratioRight="205" relationship="4" relative="leftArea">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="com.aptana.samples.ui.SamplesView" label="LabelNotFound"/>
+<page content="com.aptana.snippets.ui.views.SnippetsView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+<hiddenWindow height="773" width="1081" x="7" y="22">
+<view id="org.eclipse.ui.console.ConsoleView"/>
+</hiddenWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory/>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="leftArea"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="com.appcelerator.ui.trim"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.js" name="app.js" tooltip="/Users/kokucy/Downloads/fh.imagefactory-master/android/example/app.js">
+<persistable uri="file:/Users/kokucy/Downloads/fh.imagefactory-master/android/example/app.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="Photo_android.js" tooltip="yontakuAnimal/Resources/ui/common/Photo_android.js">
+<persistable path="/yontakuAnimal/Resources/ui/common/Photo_android.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="FirstView.js" tooltip="yontakuAnimal/Resources/ui/common/FirstView.js">
+<persistable path="/yontakuAnimal/Resources/ui/common/FirstView.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.appcelerator.titanium.ui.ide.tiappEditor" name="tiapp.xml" tooltip="yontakuAnimal/tiapp.xml">
+<persistable path="/yontakuAnimal/tiapp.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="Question.js" tooltip="yontakuAnimal/Resources/ui/common/Question.js">
+<persistable path="/yontakuAnimal/Resources/ui/common/Question.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="History.js" tooltip="yontakuAnimal/Resources/ui/common/History.js">
+<persistable path="/yontakuAnimal/Resources/ui/common/History.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="FinalView.js" tooltip="yontakuAnimal/Resources/ui/common/FinalView.js">
+<persistable path="/yontakuAnimal/Resources/ui/common/FinalView.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="Photo.js" tooltip="yontakuAnimal/Resources/ui/common/Photo.js">
+<persistable path="/yontakuAnimal/Resources/ui/common/Photo.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.xml.alloy" name="strings.xml" tooltip="yontakuAnimal/i18n/ja/strings.xml">
+<persistable path="/yontakuAnimal/i18n/ja/strings.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.xml.alloy" name="strings.xml" tooltip="yontakuAnimal/i18n/en/strings.xml">
+<persistable path="/yontakuAnimal/i18n/en/strings.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="Howto.js" tooltip="yontakuAnimal/Resources/ui/common/Howto.js">
+<persistable path="/yontakuAnimal/Resources/ui/common/Howto.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="Feature.js" tooltip="yontakuAnimal/Resources/ui/common/Feature.js">
+<persistable path="/yontakuAnimal/Resources/ui/common/Feature.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="Movie.js" tooltip="yontakuAnimal/Resources/ui/common/Movie.js">
+<persistable path="/yontakuAnimal/Resources/ui/common/Movie.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="Info.js" tooltip="yontakuAnimal/Resources/ui/common/Info.js">
+<persistable path="/yontakuAnimal/Resources/ui/common/Info.js"/>
+</file>
+</mruList>
+</workbench>

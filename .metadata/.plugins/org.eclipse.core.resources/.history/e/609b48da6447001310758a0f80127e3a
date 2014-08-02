@@ -1,0 +1,364 @@
+function ApplicationWindow(title, wRatio, purchase) {
+	var ad = require('net.nend');
+	var adView;
+	if(Ti.Platform.osname === 'android'){
+	    adView = ad.createView({
+	        spotId: 3174,
+	        apiKey: "c5cb8bc474345961c6e7a9778c947957ed8e1e4f",
+	        width: 320,
+	        height: 50,
+	        top: 0
+	    });
+	}else{
+	    adView = ad.createView({
+	        spotId: 3172,
+	        apiKey: "a6eca9dd074372c898dd1df549301f277c53f2b9",
+	        width: 320,
+	        height: 50,
+	        top: 0
+	    });
+	}
+	
+	var self = Ti.UI.createWindow({
+		title:title,
+		backgroundColor:'black'
+	});
+	if(Titanium.App.Properties.getBool('Purchased-'+purchase)==false){
+		self.add(adView);
+	}
+	
+	var db2 = Titanium.Database.open('project');
+		
+	var rows_db = db2.execute('SELECT * FROM DATA WHERE NAME = "' + Ti.App.Properties.getString('project') + '"');
+	
+	var artist = rows_db.fieldByName('ARTIST');
+	var title = rows_db.fieldByName('TITLE');
+	var genre = rows_db.fieldByName('GENRE');
+	var display = rows_db.fieldByName('DISPLAY');
+	//alert(Ti.App.Properties.getString('project') + '\n' + artist + '\n' + title + '\n' + genre);
+	
+	if(artist){
+		var query = {};
+		//ライブラリ内から検索する条件を設定(全ての種類の音楽ファイルに指定)
+		query['mediaType'] = Titanium.Media.MUSIC_MEDIA_TYPE_ANY_AUDIO;
+		query['artist'] = artist;
+		query['title'] = title;
+		query['genre'] = genre;
+		var result = Ti.Media.queryMusicLibrary(query);
+		// "OK"時の処理
+		//alert(L('Setted_Music') + ':\n' + artist + '\n' + title);
+		
+		var bgm = Titanium.Media.systemMusicPlayer;
+		bgm.setQueue(result[0]);
+	}else{
+		var bgm = Titanium.Media.createSound({
+		    // リモートURLも指定できます
+		    // url : "http://www.nch.com.au/acm/8kmp38.wav"
+		    url: 'assets/sound/bgm01.mp3',
+		    looping : true,
+		});
+	}
+	
+	var arrayPhoto = [];
+	var arrayRatio = [];
+	var arrayWord = [];
+	var count = 0;
+	
+	//var b1 = Titanium.UI.createButton({title:'Stop', top:10, left:10, });
+	var b2 = Titanium.UI.createLabel({
+		backgroundColor:'white',
+		text:'Close',
+		top:10,
+		right:10,
+		opacity:0.5,
+	});
+	if(Titanium.App.Properties.getBool('Purchased-'+purchase)==false){
+		b2.top = 60;
+	}
+	/*	
+	b1.addEventListener('click', function(){
+		bgm.stop();
+		clearInterval(s);
+		var count = 0;
+	});
+	*/
+	b2.addEventListener('click', function() {
+		bgm.stop();
+		clearInterval(s);
+		self.close();
+	});	
+	
+	var db2 = Titanium.Database.open(Ti.App.Properties.getString('project'));
+	
+	var select = 'SELECT * FROM PHOTO';
+	var rows = db2.execute(select);
+	/*
+	var count1 = 0;
+	while(rows.isValidRow()){
+		arrayPhoto[count1] = [rows.fieldByName('NAME'), rows.fieldByName('RATIO'), rows.fieldByName('POINT'), rows.fieldByName('ZOOM'), rows.fieldByName('ANGLE'), rows.fieldByName('MESSAGE'),];
+		count1++;
+		rows.next();
+	}
+	var photo_limit = count1;
+	rows.close();
+	db2.close();
+	*/
+	//ディレクトリ情報取得
+	var dir = Titanium.Filesystem.getFile(Titanium.Filesystem.applicationDataDirectory);
+	//Ti.API.info(dir.getDirectoryListing());
+	
+	var photoArray = dir.getDirectoryListing();
+	
+	var num_limit = photoArray.length; 
+	for(i=0; i<num_limit; i++){
+		//alert(photoArray[i].substr(-4,4));
+		if(photoArray[i].substr(-4,4)=='.png' && photoArray[i].substr(0,4)==Ti.App.Properties.getString('project')){
+			Ti.API.info(dir + '/' + photoArray[i]);
+			arrayPhoto.push(photoArray[i]);
+			//写真の情報取得
+			var imageTemp = Ti.UI.createImageView({
+				image:Titanium.Filesystem.applicationDataDirectory + '/' + photoArray[i],
+			});
+			//blob変換
+			var blob = imageTemp.toBlob();
+			var w = blob.width;
+			var h = blob.height;
+			arrayRatio.push(h/w);
+		}
+	}
+	
+	var db2 = Titanium.Database.open(Ti.App.Properties.getString('project'));
+	
+	var select = 'SELECT * FROM WORDS';
+	var rows = db2.execute(select);
+	
+	var count1 = 0;
+	while(rows.isValidRow()){
+		arrayWord[count1] = rows.fieldByName('WORD');
+		count1++;
+		rows.next();
+	}
+	var word_limit = count1;
+	rows.close();
+	db2.close();
+	
+	if(arrayPhoto.length>=3){
+		bgm.play();
+		if(Ti.App.Properties.getString('artist')){
+			var time = bgm.nowPlaying.playbackDuration;
+			var counter = parseInt(time/5) + 1;
+		}else{
+			var counter = 10;
+		}
+		alert(time + ':' + counter);
+		if(wRatio<1.6){
+			var top = -30;
+		}else{
+			var top = 0;
+		}
+		
+		var view = Titanium.UI.createImageView({
+		    width: 320,
+		    height: 568,
+		    top:top,
+		});
+		
+		var imageView = Titanium.UI.createImageView({
+		    image: '/assets/images/splash.jpg',
+		    width: 320,
+		    height :568,
+		});
+		view.add(imageView);
+		
+		var label = Ti.UI.createLabel({
+			backgroundColor: '#fff',
+			text: display + '\n' + L('In_preparation'),
+			font:{fontSize:30,fontFamily:'Helvetica Neue',fontWeight:'bold'},
+			textAlign:'center',
+			opacity:0.5
+		});
+		setTimeout(function(){
+			var a =Titanium.UI.createAnimation();
+			var matrix1 = Ti.UI.create2DMatrix();
+			matrix1 = matrix1.scale(2, 2);
+			a.transform = matrix1;
+			a.duration = 3000;
+			a.repeat = 1;
+	        view.animate(a);
+		}, 1500);
+		
+		var s = setInterval(function(){
+			var random = Math.floor(Math.random()*1000);
+			var randomWord = random%word_limit;
+			var randomPhoto = random%arrayPhoto.length;
+			var randomPoint = random%13;
+			var randomZoom = random%37;
+			var randomAngle = random%107;
+			var randomEven = random%2;
+			count++;
+			if(count<counter){
+				Ti.API.info('Name:' + arrayPhoto[randomPhoto]);
+				switch(randomPoint){
+					case 0:
+					var top = -160;
+					var left = -160;
+					break;
+					
+					case 1:
+					var top = -160;
+					var left = -80;
+					break;
+					
+					case 2:
+					var top = -160;
+					var left = 0;
+					break;
+					
+					case 3:
+					var top = -80;
+					var left = -160;
+					break;
+					
+					case 4:
+					var top = -80;
+					var left = -80;
+					break;
+					
+					case 5:
+					var top = -80;
+					var left = 0;
+					break;
+					
+					case 6:
+					var top = 0;
+					var left = -160;
+					break;
+					
+					case 7:
+					var top = 0;
+					var left = -80;
+					break;
+					
+					case 8:
+					var top = 0;
+					var left = 0;
+					break;
+					
+					default:
+					var top = -80;
+					var left = -80;
+					break;
+				}
+				
+				switch(randomZoom){
+					case 0:
+					var zoom = 10;
+					break;
+					
+					case 1:
+					case 2:
+					var zoom = 5;
+					break;
+					
+					case 3:
+					case 4:
+					case 5:
+					var zoom = 2;
+					break;
+					
+					case 6:
+					case 7:
+					case 8:
+					case 9:
+					case 10:
+					var zoom = 1.5;
+					break;
+					
+					default:
+					var zoom = 1;
+					break;
+				}
+				
+				switch(randomAngle){
+					case 0:
+					var angle = 180;
+					break;
+					
+					case 1:
+					case 2:
+					var angle = 60;
+					break;
+					
+					case 3:
+					case 4:
+					case 5:
+					var angle = 20;
+					break;
+					
+					case 6:
+					case 7:
+					case 8:
+					case 9:
+					case 10:
+					var angle = 10;
+					break;
+					
+					default:
+					var angle = 0;
+					break;
+				}
+				if(randomEven == 0){
+					angle = -angle;
+				}
+				var matrix2 = Titanium.UI.create2DMatrix();
+			    view.animate({transform:matrix2, duration:10});
+			    
+			    label.text = arrayWord[randomWord];
+			    label.bottom = 20;
+			    
+				//Aa space
+				if(Titanium.App.Properties.getBool('Purchased-'+purchase)==false){
+					view.top = top+50;
+				}else{
+					view.top = top;
+				}
+			    	view.left = left;
+			    	view.width = 480;
+			    	view.height = 480;
+			    	
+				imageView.top = -top + 160*(1-arrayRatio[randomPhoto]);
+				imageView.left = -left;
+				imageView.height = 320*arrayRatio[randomPhoto];
+		        imageView.image = Titanium.Filesystem.applicationDataDirectory + arrayPhoto[randomPhoto];
+		        
+				setTimeout(function(){
+					var a =Titanium.UI.createAnimation();
+					var matrix1 = Ti.UI.create2DMatrix();
+					matrix1 = matrix1.rotate(angle);
+					matrix1 = matrix1.scale(zoom, zoom);
+					a.transform = matrix1;
+					a.duration = 3000;
+					a.repeat = 1;
+			        view.animate(a);
+				}, 1000);
+		   }else{
+			    var matrix2 = Titanium.UI.create2DMatrix();
+			    view.animate({transform:matrix2, duration:10});
+			    clearInterval(s);
+			    bgm.stop();
+			    alert('end');
+		   }
+		}, 5000);
+		
+		self.add(view);
+		self.add(label);
+		//self.add(b1);
+		self.add(b2);
+	}else{
+		alert('Please_Set_multiple_photos');
+	}
+	
+	return self;
+};
+
+module.exports = ApplicationWindow;

@@ -1,0 +1,22 @@
+{
+	"target": "simulator",
+	"deployType": "development",
+	"deviceFamily": "iphone",
+	"iosSdkPath": "/Users/kokucy/Library/Application Support/Titanium/mobilesdk/osx/3.1.2.GA/iphone",
+	"appGuid": "efcb1c59-534e-4d9d-b200-cfd04023ecc5",
+	"tiCoreHash": "77157e1ffaec640cf559356a147b6a4c",
+	"modulesHash": "d41d8cd98f00b204e9800998ecf8427e",
+	"gitHash": "5ceaff8",
+	"name": "photo106",
+	"id": "com.example.photo",
+	"analytics": true,
+	"publisher": "Yoshikazu Ozawa",
+	"url": "http://www.r-learning.co.jp/",
+	"version": "1.0.0",
+	"description": "not specified",
+	"copyright": "2011 by Yoshikazu Ozawa",
+	"guid": "efcb1c59-534e-4d9d-b200-cfd04023ecc5",
+	"skipJSMinification": true,
+	"forceCopy": false,
+	"forceCopyAll": false
+}

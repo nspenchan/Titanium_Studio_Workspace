@@ -1,0 +1,4 @@
+	
+	if(osname=='ipad'){
+	}else{
+	}

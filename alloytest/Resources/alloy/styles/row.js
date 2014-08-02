@@ -1,0 +1,1 @@
+module.exports = [{"isId":true,"priority":100000.0009,"key":"row","style":{width:Ti.UI.FILL,height:"86dp",}},{"isId":true,"priority":100000.001,"key":"title","style":{width:Ti.UI.FILL,height:Ti.UI.FILL,left:"24dp",color:"#a62901",font:{fontSize:"16dp",fontWeight:"bold",},}},{"isId":true,"priority":100000.0011,"key":"image","style":{width:"120dp",height:"60dp",right:"24dp",}}];

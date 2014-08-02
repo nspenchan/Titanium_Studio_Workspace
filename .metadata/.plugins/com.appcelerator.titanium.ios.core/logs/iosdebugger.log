@@ -1,0 +1,110 @@
+Logger started at: 2014îN4åé19ì˙ 19éû42ï™29ïb JST
+Component: com.appcelerator.titanium.ios.core
+Version: 1.0.0.1388991145
+[42:29.855] Sent: >21*1397904149852*version<
+[42:29.856] Recv: >1397904149852*2*3.2.2.GA<
+[42:29.863] Sent: >20*1397904149853*update<
+[42:29.864] Recv: >1397904149853*3.2.2.GA<
+[42:29.864] Sent: >45*1397904149854*option*stepFiltersEnabled*false<
+[42:29.865] Recv: >1397904149854<
+[42:29.865] Sent: >36*1397904149855*option*monitorXHR*true<
+[42:29.866] Recv: >1397904149855<
+[42:29.866] Sent: >45*1397904149856*option*suspendOnFirstLine*false<
+[42:29.866] Recv: >1397904149856<
+[42:29.867] Sent: >46*1397904149857*option*suspendOnExceptions*false<
+[42:29.867] Recv: >1397904149857<
+[42:29.867] Sent: >41*1397904149858*option*suspendOnErrors*true<
+[42:29.868] Recv: >1397904149858<
+[42:29.868] Sent: >43*1397904149859*option*suspendOnKeywords*true<
+[42:29.868] Recv: >1397904149859<
+[42:29.869] Sent: >45*1397904149860*option*bypassConstructors*false<
+[42:29.869] Recv: >1397904149860<
+[42:29.869] Sent: >45*1397904149861*option*stepFiltersEnabled*false<
+[42:29.870] Recv: >1397904149861<
+[42:29.870] Sent: >30*1397904149862*detailFormatters<
+[42:29.871] Recv: >1397904149862<
+[42:29.873] Sent: >69*1397904149863*breakpoint*create*app:/ui/common/Question.js*323*1*0**1<
+[42:29.874] Recv: >1397904149863*created<
+[42:29.874] Sent: >20*1397904149864*enable<
+[42:29.874] Recv: >1397904149864<
+[42:29.876] Recv: >threads*created*0*kroll$1<
+[42:29.879] Recv: >log*out*[DEBUG] Analytics is enabled = YES<
+[42:29.879] Recv: >log*out*[DEBUG] Loading: /Users/kokucy/Library/Application Support/iPhone Simulator/7.1/Applications/AA5109E1-73C0-49C4-8BCD-B18E7FB4F18B/kokucyKango.app/app.js, Resource: app_js<
+[42:29.882] Recv: >scripts*created*357063264|app:/app.js||1|359<
+[42:29.883] Recv: >resumed*0*started<
+[42:29.976] Recv: >log*out*[DEBUG] Loading: /Users/kokucy/Library/Application Support/iPhone Simulator/7.1/Applications/AA5109E1-73C0-49C4-8BCD-B18E7FB4F18B/kokucyKango.app/_app_props_.json, Resource: _app_props__json<
+[42:29.980] Recv: >log*out*[DEBUG] Loading: /Users/kokucy/Library/Application Support/iPhone Simulator/7.1/Applications/AA5109E1-73C0-49C4-8BCD-B18E7FB4F18B/kokucyKango.app/lib/db.js, Resource: lib/db_js<
+[42:29.980] Recv: >scripts*created*357741408|app:/lib/db.js||1|53<
+[42:29.981] Recv: >log*out*[INFO] 0<
+[42:29.982] Recv: >log*out*[DEBUG] Loading: /Users/kokucy/Library/Application Support/iPhone Simulator/7.1/Applications/AA5109E1-73C0-49C4-8BCD-B18E7FB4F18B/kokucyKango.app/ui/handheld/ApplicationWindow.js, Resource: ui/handheld/ApplicationWindow_js<
+[42:29.982] Recv: >scripts*created*357740928|app:/ui/handheld/ApplicationWindow.js||1|21<
+[42:29.982] Recv: >log*out*[DEBUG] Loading: /Users/kokucy/Library/Application Support/iPhone Simulator/7.1/Applications/AA5109E1-73C0-49C4-8BCD-B18E7FB4F18B/kokucyKango.app/ui/common/FirstView.js, Resource: ui/common/FirstView_js<
+[42:29.983] Recv: >scripts*created*357742208|app:/ui/common/FirstView.js||1|331<
+[42:30.3] Recv: >log*out*[INFO] startLayout() method is deprecated since 3.0.0 .<
+[42:30.4] Recv: >log*out*[INFO] finishLayout() method is deprecated since 3.0.0 .<
+[42:30.21] Recv: >log*out*[DEBUG] Application booted in 199.256003 ms<
+[42:37.535] Recv: >log*out*[DEBUG] Loading: /Users/kokucy/Library/Application Support/iPhone Simulator/7.1/Applications/AA5109E1-73C0-49C4-8BCD-B18E7FB4F18B/kokucyKango.app/ui/common/Question.js, Resource: ui/common/Question_js<
+[42:37.538] Recv: >scripts*created*357743616|app:/ui/common/Question.js||1|1080<
+[42:37.632] Recv: >log*out*[INFO] [object NetNendModule] loaded<
+[42:37.632] Recv: >log*out*[DEBUG] Loading: /Users/kokucy/Library/Application Support/iPhone Simulator/7.1/Applications/AA5109E1-73C0-49C4-8BCD-B18E7FB4F18B/kokucyKango.app/net.nend.js, Resource: net_nend_js<
+[42:37.638] Recv: >suspended*0*breakpoint*app:/ui/common/Question.js*323<
+[42:37.639] Sent: >22*1397904149865*frames*0<
+[42:37.640] Recv: >1397904149865*0|Question|win,title,bgColor,dbName,arrayPurchase,arrayRecord,arrayId2,roup,bang,db,db1,label01|app:/ui/common/Question.js|323|false|0|0*1||e|app:/ui/common/FirstView.js|286|false|0|0<
+[43:11.894] Sent: >34*1397904149866*variables*0*frame[0]<
+[43:11.897] Recv: >1397904149866*this|object|o|[object Object]*seikai|object|nol|[object TiMediaSound]*count|number|wl|0*osname|string|wl|"iphone"*id|number|wl|1*data|object|nol|[object TiDatabaseResultSet]*arrayNum|object|wnol|[object Array]*tf1|undefined|wl|undefined*leftImage|undefined|wl|undefined*arguments|object|opnl|[object Arguments]*ampm|string|wl|"ÂçàÂâç"*label1|undefined|wl|undefined*rowInput|undefined|wl|undefined*self|object|nol|[object TiUIView]*labelTitle|object|nol|[object TiUILabel]*numId|undefined|wl|undefined*scale|object|l|[object Function]*stopButton|object|l|[object Function]*sprayer|object|nol|[object TiMediaSound]*arrayId|object|wnol|[object Array]*tableview|undefined|wl|undefined*num1|string|wl|""*labelComment|undefined|wl|undefined*table|undefined|wl|undefined*adView|object|nol|[object NetNendView]*stars|undefined|wl|undefined*Timer|undefined|wl|undefined*button1|object|nol|[object TiUIButton]*arrayPurchase|object|wnol|[object Array]*hintUse|number|wl|0*questionTimes|number|wl|10*db1|object|nol|[object Ti...2056<
+[43:11.897] Recv: >j|nu<
+[43:49.290] Sent: >62*1397904149867*breakpoint*remove*app:/ui/common/Question.js*323<
+[43:50.166] Sent: >69*1397904149868*breakpoint*create*app:/ui/common/Question.js*323*1*0**1<
+[44:0.707] Sent: >62*1397904149869*breakpoint*remove*app:/ui/common/Question.js*323<
+[44:15.402] Sent: >69*1397904149870*breakpoint*create*app:/ui/common/Question.js*323*1*0**1<
+[44:17.47] Sent: >34*1397904149871*eval*0*frame[0]*push<
+[44:17.48] Recv: >1397904149867*removed21*1397904149868*created21*1397904149869*removed21*1397904149870*created49*1397904149871*exception*C<
+[44:35.506] Sent: >69*1397904149872*breakpoint*change*app:/ui/common/Question.js*323*0*0**1<
+[44:35.508] Recv: >1397904149872*changed<
+[44:49.746] Sent: >62*1397904149873*breakpoint*remove*app:/ui/common/Question.js*323<
+[44:49.747] Recv: >1397904149873*removed<
+[45:19.668] Sent: >69*1397904149874*breakpoint*create*app:/ui/common/Question.js*323*1*0**1<
+[45:19.669] Recv: >1397904149874*created<
+[45:54.671] Sent: >9**resume*0<
+[45:54.672] Recv: >resumed*0*resume<
+[45:54.674] Recv: >log*out*[WARN] Invalid dimension value (nan) requested. Making the dimension undefined instead.<
+[45:54.677] Recv: >log*out*[WARN] Invalid dimension value (nan) requested. Making the dimension undefined instead.<
+[45:54.687] Recv: >log*out*[WARN] Invalid dimension value (nan) requested. Making the dimension undefined instead.<
+[45:54.691] Recv: >log*out*[INFO] startLayout() method is deprecated since 3.0.0 .<
+[45:54.691] Recv: >log*out*[INFO] finishLayout() method is deprecated since 3.0.0 .<
+[45:54.803] Recv: >suspended*0*breakpoint*app:/ui/common/Question.js*323<
+[45:54.803] Sent: >22*1397904149875*frames*0<
+[45:54.804] Recv: >1397904149875*0|Question|win,title,bgColor,dbName,arrayPurchase,arrayRecord,arrayId2,roup,bang,db,db1,label01|app:/ui/common/Question.js|323|false|0|0*1||e|app:/ui/common/FirstView.js|286|false|0|0<
+[45:59.973] Sent: >34*1397904149876*variables*0*frame[0]<
+[45:59.975] Recv: >1397904149876*this|object|o|[object Object]*seikai|object|nol|[object TiMediaSound]*count|number|wl|0*osname|string|wl|"iphone"*id|number|wl|1*data|object|nol|[object TiDatabaseResultSet]*arrayNum|object|wnol|[object Array]*tf1|undefined|wl|undefined*leftImage|undefined|wl|undefined*arguments|object|opnl|[object Arguments]*ampm|string|wl|"ÂçàÂâç"*label1|undefined|wl|undefined*rowInput|undefined|wl|undefined*self|object|nol|[object TiUIView]*labelTitle|object|nol|[object TiUILabel]*numId|undefined|wl|undefined*scale|object|l|[object Function]*stopButton|object|l|[object Function]*sprayer|object|nol|[object TiMediaSound]*arrayId|object|wnol|[object Array]*tableview|undefined|wl|undefined*num1|string|wl|""*labelComment|undefined|wl|undefined*table|undefined|wl|undefined*adView|object|nol|[object NetNendView]*stars|undefined|wl|undefined*Timer|undefined|wl|undefined*button1|object|nol|[object TiUIButton]*arrayPurchase|object|wnol|[object Array]*hintUse|number|wl|0*questionTimes|number|wl|10*db1|object|nol|[object Ti...2140<
+[46:2.715] Sent: >9**resume*0<
+[46:2.716] Recv: >resumed*0*resume<
+[46:2.719] Recv: >log*out*[WARN] Invalid dimension value (nan) requested. Making the dimension undefined instead.<
+[46:2.723] Recv: >log*out*[WARN] Invalid dimension value (nan) requested. Making the dimension undefined instead.<
+[46:2.738] Recv: >log*out*[WARN] Invalid dimension value (nan) requested. Making the dimension undefined instead.<
+[46:2.742] Recv: >log*out*[INFO] startLayout() method is deprecated since 3.0.0 .<
+[46:2.742] Recv: >log*out*[INFO] finishLayout() method is deprecated since 3.0.0 .<
+[46:12.292] Recv: >log*out*[DEBUG] Loading: /Users/kokucy/Library/Application Support/iPhone Simulator/7.1/Applications/AA5109E1-73C0-49C4-8BCD-B18E7FB4F18B/kokucyKango.app/ui/common/Result.js, Resource: ui/common/Result_js<
+[46:12.293] Recv: >scripts*created*357986112|app:/ui/common/Result.js||1|270<
+[46:12.300] Recv: >log*out*[INFO] startLayout() method is deprecated since 3.0.0 .<
+[46:12.300] Recv: >log*out*[INFO] finishLayout() method is deprecated since 3.0.0 .<
+[46:15.820] Recv: >suspended*0*breakpoint*app:/ui/common/Question.js*323<
+[46:15.821] Sent: >22*1397904149877*frames*0<
+[46:15.821] Recv: >1397904149877*0|Question|win,title,bgColor,dbName,arrayPurchase,arrayRecord,arrayId2,roup,bang,db,db1,label01|app:/ui/common/Question.js|323|false|0|0*1||e|app:/ui/common/FirstView.js|286|false|0|0<
+[46:16.241] Sent: >34*1397904149878*variables*0*frame[0]<
+[46:16.243] Recv: >1397904149878*this|object|o|[object Object]*seikai|object|nol|[object TiMediaSound]*count|number|wl|1*osname|string|wl|"iphone"*id|number|wl|1*data|object|nol|[object TiDatabaseResultSet]*arrayNum|object|wnol|[object Array]*tf1|undefined|wl|undefined*leftImage|undefined|wl|undefined*arguments|object|opnl|[object Arguments]*ampm|string|wl|"ÂçàÂâç"*label1|undefined|wl|undefined*rowInput|undefined|wl|undefined*self|object|nol|[object TiUIView]*labelTitle|object|nol|[object TiUILabel]*numId|undefined|wl|undefined*scale|object|l|[object Function]*stopButton|object|l|[object Function]*sprayer|object|nol|[object TiMediaSound]*arrayId|object|wnol|[object Array]*tableview|undefined|wl|undefined*num1|string|wl|""*labelComment|undefined|wl|undefined*table|undefined|wl|undefined*adView|object|nol|[object NetNendView]*stars|undefined|wl|undefined*Timer|undefined|wl|undefined*button1|object|nol|[object TiUIButton]*arrayPurchase|object|wnol|[object Array]*hintUse|number|wl|0*questionTimes|number|wl|10*db1|object|nol|[object Ti...2181<
+[46:16.243] Recv: >n<
+[46:27.230] Sent: >9**resume*0<
+[46:27.230] Recv: >resumed*0*resume<
+[46:27.233] Recv: >log*out*[WARN] Invalid dimension value (nan) requested. Making the dimension undefined instead.<
+[46:27.238] Recv: >log*out*[WARN] Invalid dimension value (nan) requested. Making the dimension undefined instead.<
+[46:27.254] Recv: >log*out*[WARN] Invalid dimension value (nan) requested. Making the dimension undefined instead.<
+[46:27.262] Recv: >log*out*[INFO] startLayout() method is deprecated since 3.0.0 .<
+[46:27.262] Recv: >log*out*[INFO] finishLayout() method is deprecated since 3.0.0 .<
+[50:6.360] Sent: >62*1397904149879*breakpoint*remove*app:/ui/common/Question.js*323<
+[50:6.360] Recv: >1397904149879*removed<
+[50:9.485] Sent: >69*1397904149880*breakpoint*create*app:/ui/common/Question.js*323*1*0**1<
+[50:9.485] Recv: >1397904149880*created<
+[50:14.997] Sent: >62*1397904149881*breakpoint*remove*app:/ui/common/Question.js*323<
+[50:14.997] Recv: >1397904149881*removed<
+----------End of file----------

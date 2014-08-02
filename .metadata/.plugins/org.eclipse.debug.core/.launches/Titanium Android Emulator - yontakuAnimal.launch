@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.appcelerator.titanium.mobile.ui.android.simulator.launchConfigurationType">
+<stringAttribute key="ATTR_LOG_LEVEL" value="Info"/>
+<stringAttribute key="ATTR_PROJECT_NAME" value="yontakuAnimal"/>
+<stringAttribute key="abi" value="armeabi"/>
+<stringAttribute key="device-id" value="Nexus 7 - 4.3 - API 18 - 800x1280"/>
+<stringAttribute key="keystore_alias" value=""/>
+<stringAttribute key="keystore_password" value=""/>
+<stringAttribute key="keystore_path" value=""/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/yontakuAnimal"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<stringAttribute key="process_factory_id" value="com.appcelerator.titanium.mobile.ui.androidLogLevelFilteringProcessFactory"/>
+<stringAttribute key="screen_type" value="WVGA854"/>
+<stringAttribute key="sdk_version" value="Google APIs (Android 2.3.3)"/>
+</launchConfiguration>

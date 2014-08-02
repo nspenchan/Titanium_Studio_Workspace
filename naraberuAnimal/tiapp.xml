@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>com.kokucy.naraberuAnimal</id>
+    <name>naraberuAnimal</name>
+    <version>2.0.0</version>
+    <publisher>kokucy</publisher>
+    <url>http://nspenchan.com/app/naraberuAnimal.html</url>
+    <description>not specified</description>
+    <copyright>2014 by kokucy</copyright>
+    <icon>appicon.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>18900fa1-fcf2-4f0e-9915-1a2a7416e132</guid>
+    <ios>
+	    <min-ios-ver>7.0</min-ios-ver>
+        <plist>
+            <dict>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleDefault</string>
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+        <!-- <tool-api-level>14</tool-api-level> -->
+        <manifest android:versionCode="1" android:versionName="1.1.0">
+            <!-- アプリのバージョン指定。versionCodeは通算でのバージョン（アップデート時にチェックされる）、versionNameは表示上のバージョン -->
+        </manifest>
+    </android>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="android">net.nend</module>
+        <module platform="iphone">net.nend</module>
+        <module platform="iphone">com.logicallabs.inappproducts</module>
+        <module platform="android">com.logicallabs.inappproducts</module>
+        <module platform="iphone">bencoding.utterance</module>
+        <module platform="android">bencoding.utterance</module>
+    </modules>
+    <deployment-targets>
+        <target device="android">true</target>
+        <target device="blackberry">false</target>
+        <target device="ipad">true</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">false</target>
+        <target device="tizen">false</target>
+    </deployment-targets>
+    <sdk-version>3.2.3.GA</sdk-version>
+</ti:app>

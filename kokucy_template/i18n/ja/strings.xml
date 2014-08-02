@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="BGM_ON">BGM再生</string>
+    <string name="BGM_OFF">BGM停止</string>
+    <string name="Next">つぎへ</string>
+    <string name="Back">もどる</string>
+    <string name="Tab_">タブ %s</string>
+    <string name="I_am_Window_">わたしは ウィンドウ%s です</string>
+
+</resources>

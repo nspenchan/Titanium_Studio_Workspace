@@ -1,0 +1,5 @@
+ANDROID_SDK_PATH=/Users/kokucy/Developer/android/sdk
+DEFAULT_ANDROID_SCREEN_TYPE=WVGA854
+DEFAULT_ANDROID_SDK=Google APIs (Android 2.3.3)
+eclipse.preferences.version=1
+iOSDisplay=NON_RETINA

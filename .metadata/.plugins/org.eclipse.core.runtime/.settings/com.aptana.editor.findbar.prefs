@@ -1,0 +1,3 @@
+FIND_BAR_DECORATOR_FIND_ENTRIES=\#\n\#Thu Jul 31 14\:21\:14 JST 2014\n8\=key4\n7\=text2\n6\=emailFunction\n5\=firstmail\n4\=clearKey\n3\=hintfunction\n2\=firstmailFunction\n1\=ti.api.info\n0\=eraser\n
+FIND_BAR_DECORATOR_REPLACE_ENTRIES=\#\n\#Thu Jul 31 11\:42\:50 JST 2014\n19\=familyPhoto\n18\=Tools\n17\=e.source.val2\n16\=' + Titanium.App.Properties.getString('folder') + '\n15\=template\n14\=arrayCorrect\n13\=dbName\n12\=_cardImage\n11\=_card\n10\=card\n9\=Titanium.App.Properties.getString('template')\n8\=random10\n7\=' + Titanium.App.Properties.getString('moji') + '\n6\=complete\n5\=super_mario_question_box.png\n4\=;\n3\=,\n2\=scrollView\n1\=\\ \\\= \n0\=text\n
+eclipse.preferences.version=1

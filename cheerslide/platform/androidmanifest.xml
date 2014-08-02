@@ -1,0 +1,14 @@
+
+<?xml version="1.0" encoding="utf-8"?]] >
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package="com.kokucy.testmodule" android:versionCode="4"
+android:versionName="1.0.0"]] >
+<uses-sdk android:minSdkVersion="8" />
+
+
+<!-- TI_MANIFEST -->
+
+
+<application android:icon="@drawable/appicon"
+android:label="testModule" android:name="TestmoduleApplication"
+android:debuggable="false"]] >

@@ -1,0 +1,166 @@
+Logger started at: 2013”N12ŒŽ12“ú 0Žž41•ª09•b JST
+Component: com.appcelerator.titanium.mobile
+Version: 1.0.0.1379026748
+[41:9.807] Sent: >21*1386776469805*version<
+[41:9.809] Recv: >1386776469805*2*3.1.2.GA<
+[41:9.814] Sent: >20*1386776469806*update<
+[41:9.814] Recv: >1386776469806*3.1.2.GA<
+[41:9.815] Sent: >45*1386776469807*option*stepFiltersEnabled*false<
+[41:9.815] Recv: >1386776469807<
+[41:9.817] Sent: >36*1386776469808*option*monitorXHR*true<
+[41:9.817] Recv: >1386776469808<
+[41:9.818] Sent: >45*1386776469809*option*suspendOnFirstLine*false<
+[41:9.818] Recv: >1386776469809<
+[41:9.818] Sent: >46*1386776469810*option*suspendOnExceptions*false<
+[41:9.819] Recv: >1386776469810<
+[41:9.819] Sent: >41*1386776469811*option*suspendOnErrors*true<
+[41:9.819] Recv: >1386776469811<
+[41:9.819] Sent: >43*1386776469812*option*suspendOnKeywords*true<
+[41:9.819] Recv: >1386776469812<
+[41:9.820] Sent: >45*1386776469813*option*bypassConstructors*false<
+[41:9.820] Recv: >1386776469813<
+[41:9.820] Sent: >45*1386776469814*option*stepFiltersEnabled*false<
+[41:9.820] Recv: >1386776469814<
+[41:9.821] Sent: >30*1386776469815*detailFormatters<
+[41:9.821] Recv: >1386776469815<
+[41:9.823] Sent: >20*1386776469816*enable<
+[41:9.824] Recv: >1386776469816<
+[41:9.826] Recv: >threads*created*0*kroll$1<
+[41:9.828] Recv: >log*out*[DEBUG] Analytics is enabled = YES<
+[41:9.829] Recv: >log*out*[DEBUG] Loading: /Users/kokucy/Library/Application Support/iPhone Simulator/7.0/Applications/32EE0153-84D7-4118-8538-50879E1669B3/yontakuAnimal.app/app.js, Resource: app_js<
+[41:9.830] Recv: >scripts*created*275573344|app:/app.js||1|124<
+[41:9.830] Recv: >resumed*0*started<
+[41:9.832] Recv: >log*out*[DEBUG] Loading: /Users/kokucy/Library/Application Support/iPhone Simulator/7.0/Applications/32EE0153-84D7-4118-8538-50879E1669B3/yontakuAnimal.app/lib/db.js, Resource: lib/db_js<
+[41:9.834] Recv: >scripts*created*275574720|app:/lib/db.js||1|51<
+[41:9.835] Recv: >log*out*[DEBUG] Loading: /Users/kokucy/Library/Application Support/iPhone Simulator/7.0/Applications/32EE0153-84D7-4118-8538-50879E1669B3/yontakuAnimal.app/ui/handheld/ApplicationWindow.js, Resource: ui/handheld/ApplicationWindow_js<
+[41:9.835] Recv: >scripts*created*275574272|app:/ui/handheld/ApplicationWindow.js||1|27<
+[41:9.836] Recv: >log*out*[DEBUG] Loading: /Users/kokucy/Library/Application Support/iPhone Simulator/7.0/Applications/32EE0153-84D7-4118-8538-50879E1669B3/yontakuAnimal.app/ui/common/FirstView.js, Resource: ui/common/FirstView_js<
+[41:9.838] Recv: >scripts*created*275574016|app:/ui/common/FirstView.js||1|325<
+[41:10.599] Recv: >log*out*[INFO] assets/images/animal/koala/l_01.png<
+[41:10.601] Recv: >log*out*[INFO] userFace.png<
+[41:10.734] Recv: >log*out*[DEBUG] Application booted in 1052.148998 ms<
+[41:12.437] Recv: >log*out*[DEBUG] Loading: /Users/kokucy/Library/Application Support/iPhone Simulator/7.0/Applications/32EE0153-84D7-4118-8538-50879E1669B3/yontakuAnimal.app/ui/common/Question.js, Resource: ui/common/Question_js<
+[41:12.439] Recv: >scripts*created*276035904|app:/ui/common/Question.js||1|562<
+[41:12.489] Recv: >log*out*[INFO] [object NetNendModule] loaded<
+[41:12.490] Recv: >log*out*[DEBUG] Loading: /Users/kokucy/Library/Application Support/iPhone Simulator/7.0/Applications/32EE0153-84D7-4118-8538-50879E1669B3/yontakuAnimal.app/net.nend.js, Resource: net_nend_js<
+[41:12.493] Recv: >log*out*[INFO] Effect:random<
+[41:12.500] Recv: >log*out*[DEBUG] Ti.View.animate() called before view <TiUIImageView: 0x11160930; frame = (0 -100; 0 200); alpha = 0.1; autoresize = LM+RM+TM+BM; layer = <CALayer: 0x111608b0>> was ready: Will re-attempt<
+[41:12.500] Recv: >log*out*[DEBUG] Ti.View.animate() called before view <TiUIImageView: 0x11160930; frame = (0 -100; 0 200); alpha = 0.1; autoresize = LM+RM+TM+BM; layer = <CALayer: 0x111608b0>> was ready: Will re-attempt<
+[41:12.513] Recv: >log*out*[DEBUG] Ti.View.animate() called before view <TiUIImageView: 0x11160930; frame = (0 -100; 0 200); alpha = 0.1; autoresize = LM+RM+TM+BM; layer = <CALayer: 0x111608b0>> was ready: Will re-attempt<
+[41:12.514] Recv: >log*out*[DEBUG] Ti.View.animate() called before view <TiUIImageView: 0x11160930; frame = (0 -100; 0 200); alpha = 0.1; autoresize = LM+RM+TM+BM; layer = <CALayer: 0x111608b0>> was ready: Will re-attempt<
+[41:12.544] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:12.545] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:13.416] Recv: >log*out*[INFO] {"x":100.5,"y":54.5,"bubbles":true,"type":"click","source":{"enabled":true,"right":10,"horizontalWrap":true,"val":13,"backgroundSelectedImage":"assets/images/shadow.png","width":200,"style":"","height":100,"top":10},"cancelBubble":false}<
+[41:13.546] Recv: >log*out*[INFO] DIRTY FLAGS 2 WILLBERELAYING 2<
+[41:13.546] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:13.566] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:14.315] Recv: >log*out*[DEBUG] Loading: /Users/kokucy/Library/Application Support/iPhone Simulator/7.0/Applications/32EE0153-84D7-4118-8538-50879E1669B3/yontakuAnimal.app/ui/common/FinalView.js, Resource: ui/common/FinalView_js<
+[41:14.318] Recv: >scripts*created*275574048|app:/ui/common/FinalView.js||1|346<
+[41:14.350] Recv: >log*out*[INFO] userFace.png<
+[41:14.352] Recv: >log*out*[DEBUG] Ti.View.animate() called before view <TiUIImageView: 0x1118aab0; frame = (-140.444 80; 90 90); alpha = 0.5; autoresize = LM; layer = <CALayer: 0x11188dd0>> was ready: Will re-attempt<
+[41:14.365] Recv: >log*out*[DEBUG] Ti.View.animate() called before view <TiUIImageView: 0x1118aab0; frame = (-140.444 80; 90 90); alpha = 0.5; autoresize = LM; layer = <CALayer: 0x11188dd0>> was ready: Will re-attempt<
+[41:14.365] Recv: >log*out*[INFO] deer<
+[41:14.366] Recv: >log*out*[INFO] startLayout() method is deprecated since 3.0.0 .<
+[41:14.367] Recv: >log*out*[INFO] finishLayout() method is deprecated since 3.0.0 .<
+[41:14.490] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:14.491] Recv: >log*out*[INFO] DIRTY FLAGS 10 WILLBERELAYING 2<
+[41:14.491] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:14.512] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:14.512] Recv: >log*out*[INFO] DIRTY FLAGS 2 WILLBERELAYING 2<
+[41:14.512] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:14.532] Recv: >log*out*[INFO] DIRTY FLAGS 2 WILLBERELAYING 2<
+[41:14.533] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:14.553] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:15.492] Recv: >log*out*[INFO] DIRTY FLAGS 2 WILLBERELAYING 2<
+[41:15.492] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:15.512] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:16.515] Recv: >log*out*[INFO] DIRTY FLAGS 2 WILLBERELAYING 2<
+[41:16.515] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:16.535] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:17.537] Recv: >log*out*[INFO] DIRTY FLAGS 2 WILLBERELAYING 2<
+[41:17.537] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:17.557] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:18.559] Recv: >log*out*[INFO] DIRTY FLAGS 2 WILLBERELAYING 2<
+[41:18.559] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:18.580] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:19.581] Recv: >log*out*[INFO] DIRTY FLAGS 2 WILLBERELAYING 2<
+[41:19.582] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:19.602] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:20.613] Recv: >log*out*[INFO] DIRTY FLAGS 2 WILLBERELAYING 2<
+[41:20.613] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:20.634] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:21.636] Recv: >log*out*[INFO] DIRTY FLAGS 2 WILLBERELAYING 2<
+[41:21.636] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:21.657] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:22.659] Recv: >log*out*[INFO] DIRTY FLAGS 2 WILLBERELAYING 2<
+[41:22.659] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:22.679] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:23.681] Recv: >log*out*[INFO] DIRTY FLAGS 2 WILLBERELAYING 2<
+[41:23.681] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:23.701] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:24.703] Recv: >log*out*[INFO] DIRTY FLAGS 2 WILLBERELAYING 2<
+[41:24.704] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:24.724] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:25.726] Recv: >log*out*[INFO] DIRTY FLAGS 2 WILLBERELAYING 2<
+[41:25.726] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:25.746] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:26.748] Recv: >log*out*[INFO] DIRTY FLAGS 2 WILLBERELAYING 2<
+[41:26.748] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:26.768] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:27.770] Recv: >log*out*[INFO] DIRTY FLAGS 2 WILLBERELAYING 2<
+[41:27.771] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:27.791] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:28.793] Recv: >log*out*[INFO] DIRTY FLAGS 2 WILLBERELAYING 2<
+[41:28.793] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:28.813] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:29.815] Recv: >log*out*[INFO] DIRTY FLAGS 2 WILLBERELAYING 2<
+[41:29.815] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:29.835] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:30.837] Recv: >log*out*[INFO] DIRTY FLAGS 2 WILLBERELAYING 2<
+[41:30.838] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:30.858] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:31.859] Recv: >log*out*[INFO] DIRTY FLAGS 2 WILLBERELAYING 2<
+[41:31.860] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:31.880] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:32.883] Recv: >log*out*[INFO] DIRTY FLAGS 2 WILLBERELAYING 2<
+[41:32.883] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:32.903] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:33.905] Recv: >log*out*[INFO] DIRTY FLAGS 2 WILLBERELAYING 2<
+[41:33.905] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:33.925] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:34.927] Recv: >log*out*[INFO] DIRTY FLAGS 2 WILLBERELAYING 2<
+[41:34.927] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:34.947] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:35.949] Recv: >log*out*[INFO] DIRTY FLAGS 2 WILLBERELAYING 2<
+[41:35.950] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:35.970] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:36.972] Recv: >log*out*[INFO] DIRTY FLAGS 2 WILLBERELAYING 2<
+[41:36.972] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:36.992] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:37.994] Recv: >log*out*[INFO] DIRTY FLAGS 2 WILLBERELAYING 2<
+[41:37.994] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:38.14] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:39.16] Recv: >log*out*[INFO] DIRTY FLAGS 2 WILLBERELAYING 2<
+[41:39.16] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:39.36] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:40.38] Recv: >log*out*[INFO] DIRTY FLAGS 2 WILLBERELAYING 2<
+[41:40.39] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:40.59] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:41.61] Recv: >log*out*[INFO] DIRTY FLAGS 2 WILLBERELAYING 2<
+[41:41.61] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:41.81] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:42.82] Recv: >log*out*[INFO] DIRTY FLAGS 2 WILLBERELAYING 2<
+[41:42.83] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:42.103] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:43.106] Recv: >log*out*[INFO] DIRTY FLAGS 2 WILLBERELAYING 2<
+[41:43.106] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:43.126] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:44.129] Recv: >log*out*[INFO] DIRTY FLAGS 2 WILLBERELAYING 2<
+[41:44.129] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:44.149] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:45.151] Recv: >log*out*[INFO] DIRTY FLAGS 2 WILLBERELAYING 2<
+[41:45.151] Recv: >log*out*[DEBUG] Ti.View.animate() called while view waiting to relayout: Will re-attempt<
+[41:45.171] Recv: >log*out*[INFO] DIRTY FLAGS 0 WILLBERELAYING 0<
+[41:45.804] Sent: >10**terminate<
+[41:45.804] Sent: >10**terminate<
+----------End of file----------

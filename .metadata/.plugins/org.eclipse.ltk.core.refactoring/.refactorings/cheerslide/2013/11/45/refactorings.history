@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;cheerslide/Resources/ui/win26.png&apos; to &apos;win26.js&apos;" description="Rename resource &apos;win26.png&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Resources/ui/win26.png" name="win26.js" stamp="1383823525774" updateReferences="true"/>
+</session>

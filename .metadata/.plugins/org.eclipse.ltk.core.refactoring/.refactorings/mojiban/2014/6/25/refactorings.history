@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;mojiban/Resources/ui/common/Info.png&apos; to &apos;Info.js&apos;" description="Rename resource &apos;Info.png&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Resources/ui/common/Info.png" name="Info.js" stamp="1403174023382" updateReferences="true"/>
+</session>

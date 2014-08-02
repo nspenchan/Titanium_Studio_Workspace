@@ -1,0 +1,229 @@
+function ApplicationWindow(title ,tabGroup, parentWindow) {
+	//alert("intialization:" + Ti.App.Properties.getInt("intialization"));
+	
+	var self = Ti.UI.createWindow({
+		title:title,
+		backgroundColor:'blue'
+	});
+	
+	//Titanium.UI.iPhone.hideStatusBar();
+	/*
+	var button = Ti.UI.createButton({
+		height:44,
+		width:200,
+		title:L('openWindow'),
+		top:20
+	});
+	self.add(button);
+	
+	button.addEventListener('click', function() {
+		//containingTab attribute must be set by parent tab group on
+		//the window for this work
+		self.containingTab.open(Ti.UI.createWindow({
+			title: L('newWindow'),
+			backgroundColor: 'blue'
+		}));
+	});
+	*/
+	
+	//var b1 = Titanium.UI.createButton({title:L('Back')});
+	var b2 = Titanium.UI.createButton({title:L(' ＋ ')});
+	//self.LeftNavButton = b1;
+	self.RightNavButton = b2;
+	/*	
+	b1.addEventListener('click', function(){
+		tabGroup.activeTab = tabGroup.tabs[0];
+	});
+	*/
+	b2.addEventListener('click', function(e){
+		tableview.top = 60;
+		var tf1 = Titanium.UI.createTextField({
+	        color:'#336699',
+	        top:10,
+	        left:10,
+	        width:300,
+	        height:40,
+	        hintText:L('Enter_Project_Name'),
+	        keyboardType:Titanium.UI.KEYBOARD_DEFAULT,
+	        returnKeyType:Titanium.UI.RETURNKEY_DEFAULT,
+	        borderStyle:Titanium.UI.INPUT_BORDERSTYLE_ROUNDED
+		});
+		self.add(tf1);
+		
+		// TEXT FIELD EVENTS (return, focus, blur, change)
+		tf1.addEventListener('return',function(e){
+			var NowDate = nowDate();
+			var id = last_id + 1;
+			if(id<1000){
+				var name = 'p' + convertNum(id, 3);
+				var db2 = Titanium.Database.open('project');
+				db2.execute('INSERT INTO DATA VALUES(' + id + ', "' + name + '", "' + e.value + '", "", "", "", "' + NowDate + '")');
+				db2.close();
+			}else{
+				alert('Cant_make_project_1000_over');
+			}
+	
+			self.remove(tableview);
+			table();	
+		});
+		/*
+		tf1.addEventListener('focus',function(e){
+		        l.text = 'focus received, val = ' + e.value;
+		});
+		tf1.addEventListener('blur',function(e){
+		        l.text = 'blur received, val = ' + e.value;     
+		});
+		tf1.addEventListener('change', function(e){
+		        l.text = 'change received, event val = ' + e.value + '\nfield val = ' + tf1.value;      
+		});
+		*/
+	});
+	
+	table();
+	
+	//tableView
+	var tableview;
+	var last_id;
+	function table(){
+		var db2 = Titanium.Database.open('project');
+		
+		var rows = [];
+		
+		var rows_db = db2.execute('SELECT * FROM DATA');
+		
+		while(rows_db.isValidRow()){
+			last_id = rows_db.field(0);
+			var row = Ti.UI.createTableViewRow({
+			    //画像表示用の自作のプロパティ
+			    height:'auto',
+			    backgroundColor:'white',
+			    num:rows_db.field(0),
+			    del:false,
+			});
+			
+			var label = Titanium.UI.createLabel({
+				color:'#000',
+				backgroundColor:'transparent',
+				text:L('PROJECT') + ' ' + rows_db.field(0) + ':\n' + rows_db.fieldByName('DISPLAY'),
+				font:{fontSize:20,fontFamily:'Helvetica Neue'},
+				//textAlign:'left',
+				width:200,
+				height:'auto',
+				top:10,
+				bottom:10,
+				left:10,
+				//opacity:0.7,
+			});
+			row.add(label);
+			
+			var button = Ti.UI.createButton({
+				color:'red',
+				height:'auto',
+				width:'auto',
+				title:L('DELETE'),
+				right:10,
+			    num:rows_db.field(0),
+			});
+			button.addEventListener('click', function(e) {
+				var num = e.source.num;
+				Ti.API.info('num: ' + e.source.num);
+				Ti.API.info('e: ' + JSON.stringify(e));
+				//containingTab attribute must be set by parent tab group on
+				//the window for this work
+				var alertDialog = Titanium.UI.createAlertDialog({
+				    title: L('Delete_Project'),
+				    message: L('Are_you_sure_you_want_to_delete_this_project'),
+				    buttonNames: [L('OK'),L('Cancel')],
+				    // キャンセルボタンがある場合、何番目(0オリジン)のボタンなのかを指定できます。
+				    //cancel: 1
+				});
+				alertDialog.addEventListener('click',function(event){
+				    // Cancelボタンが押されたかどうか
+				    if(event.index == 1){
+				    		//alert('Cancel');
+				        // cancel時の処理
+						section = tableview.data[0];
+						for (i=0;i<section.rowCount;i++){
+							section.rows[i].backgroundColor = 'white';
+						}
+				    }
+				    // 選択されたボタンのindexも返る
+				    if(event.index == 0){
+						var db2 = Titanium.Database.open('project');
+						if(num != 1){
+							db2.execute('DELETE FROM DATA WHERE ID = ' + num);
+						}else{
+							alert(L('Cant_delete_PROJECT_1'));
+						}
+
+						db2.close();
+						
+						self.remove(tableview);
+						table();	
+				    }
+				});
+				alertDialog.show();
+				
+			});
+			row.add(button);
+			
+			rows.push(row);
+			
+			rows_db.next();
+		}
+		rows_db.close();
+		db2.close();
+		
+		// 先ほどのデータに基づいてTable Viewを起こします。
+		tableview = Titanium.UI.createTableView({
+		    data: rows
+		});
+		// イベントリスナにクリック時のイベントを登録します。
+		tableview.addEventListener('click', function(e){
+			e.row.backgroundColor = 'pink';
+		});
+		// Windowに追加する
+		self.add(tableview);
+	}
+	return self;
+	
+	var result = convertNum(1234, 5);//01234
+ 
+	function convertNum(num, figures) {
+		var str = String(num);
+		while (str.length < figures) {
+			str = "0"+str;
+		}
+		return str;
+	}
+	
+	function nowDate(){
+			// 日付の取得
+		    var date = new Date();
+		    var year = date.getYear();
+		    var mon = date.getMonth() + 1;
+		    var day = date.getDate();
+		
+		    // 西暦の処理とゼロパディング
+		    year = (year < 2000) ? year+1900 : year;
+		    if (mon < 10) { mon = "0" + mon; }
+		    if (day < 10) { day = "0" + day; }
+		
+		    // 時間の取得
+		    var time = new Date();
+		    var hour = time.getHours();
+		    var min = time.getMinutes();
+		    var sec = time.getSeconds();
+		
+		    // ゼロパディング
+		    if (hour < 10) { hour = "0" + hour; }
+		    if (min < 10) { min = "0" + min; }
+		    if (sec < 10) { sec = "0" + sec; }
+		
+		    // 書き出し
+		    var nowDate = year + "-" + mon + "-" + day + " " + hour + ":" + min + ":" + sec;
+		    return nowDate;
+		}
+};
+
+module.exports = ApplicationWindow;

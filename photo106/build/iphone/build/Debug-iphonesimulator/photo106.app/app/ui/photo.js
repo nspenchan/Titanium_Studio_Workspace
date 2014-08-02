@@ -1,0 +1,1 @@
+/Users/kokucy/Documents/Titanium_Studio_Workspace/photo106/Resources/app/ui/photo.js

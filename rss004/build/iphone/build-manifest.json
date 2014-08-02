@@ -1,0 +1,22 @@
+{
+	"target": "simulator",
+	"deployType": "development",
+	"deviceFamily": "iphone",
+	"iosSdkPath": "/Users/kokucy/Library/Application Support/Titanium/mobilesdk/osx/3.1.2.GA/iphone",
+	"appGuid": "3504b85a-eae8-4d4b-a80d-0680c44ad39b",
+	"tiCoreHash": "77157e1ffaec640cf559356a147b6a4c",
+	"modulesHash": "d41d8cd98f00b204e9800998ecf8427e",
+	"gitHash": "5ceaff8",
+	"name": "rss004",
+	"id": "com.example.rss",
+	"analytics": true,
+	"publisher": "Yoshikazu Ozawa",
+	"url": "http://www.r-learning.co.jp/",
+	"version": "1.0.0",
+	"description": "not specified",
+	"copyright": "2011 by Yoshikazu Ozawa",
+	"guid": "3504b85a-eae8-4d4b-a80d-0680c44ad39b",
+	"skipJSMinification": true,
+	"forceCopy": false,
+	"forceCopyAll": false
+}

@@ -1,0 +1,10 @@
+android/ATTR_MINIFY=true
+android/ATTR_PROJECT_NAME=kokucyKango
+android/abi=armeabi
+android/distribute_path=/Users/kokucy/Documents/Titanium_Studio_Workspace/android_apk
+android/keystore_alias=kokucykango
+android/keystore_password=100manen
+android/keystore_path=/Users/kokucy/Documents/Titanium_Studio_Workspace/kokucyKango/Resources/android/kokucyKango.keystore
+android/recent_output=/Users/kokucy/Documents/Titanium_Studio_Workspace/android_apk
+android/sdk_version=2.3.3
+eclipse.preferences.version=1

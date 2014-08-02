@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;yontakuAnimal/Resources/ui/common/Store.js&apos; to &apos;Storekit.js&apos;" description="Rename resource &apos;Store.js&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Resources/ui/common/Store.js" name="Storekit.js" stamp="1396261106042" updateReferences="true"/>
+</session>

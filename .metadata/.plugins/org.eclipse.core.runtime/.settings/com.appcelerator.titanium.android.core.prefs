@@ -1,0 +1,6 @@
+ANDROID_NDK_PATH=/Users/kokucy/Developer/android/ndk
+DEFAULT_ANDROID_EMULATOR=Nexus 7 - 4.3 - API 18 - 800x1280
+eclipse.preferences.version=1
+keystores///Users/kokucy/Documents/Titanium_Studio_Workspace/android_apk/yontakuAnimal.apk=/Users/kokucy/Documents/Titanium_Studio_Workspace/android_apk/yontakuAnimal.apk
+keystores///Users/kokucy/Documents/Titanium_Studio_Workspace/kokucyKango/Resources/android/kokucyKango.keystore=/Users/kokucy/Documents/Titanium_Studio_Workspace/kokucyKango/Resources/android/kokucyKango.keystore
+keystores///Users/kokucy/Documents/Titanium_Studio_Workspace/yontakuAnimal/Resources/android/yontakuAnimal.keystore=/Users/kokucy/Documents/Titanium_Studio_Workspace/yontakuAnimal/Resources/android/yontakuAnimal.keystore

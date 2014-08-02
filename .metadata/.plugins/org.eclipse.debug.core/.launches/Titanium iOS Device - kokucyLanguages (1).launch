@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.appcelerator.titanium.mobile.ui.ios.installer.launchConfigurationType">
+<booleanAttribute key="ATTR_MINIFY" value="true"/>
+<stringAttribute key="ATTR_PROJECT_NAME" value="kokucyLanguages"/>
+<stringAttribute key="ATTR_TITANIUM_DEPLOY_TYPE" value="development"/>
+<stringAttribute key="appid" value="com.kokucy.languages"/>
+<stringAttribute key="certificate" value="YUKIKO NAGAOKA (DFL8A95U39)"/>
+<stringAttribute key="debug_config" value="::1400534754448:172.20.10.5"/>
+<stringAttribute key="debug_hosts" value="172.20.10.5"/>
+<stringAttribute key="device_id" value="d90b656cc46a53e682e0f3d37fb3855f527ac2e7"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/kokucyLanguages"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.debug.core.capture_output" value="true"/>
+<booleanAttribute key="org.eclipse.debug.ui.ATTR_LAUNCH_IN_BACKGROUND" value="true"/>
+<stringAttribute key="process_factory_id" value="com.appcelerator.titanium.ui.logLevelFilteringProcessFactory"/>
+<stringAttribute key="sdk_version" value="7.1"/>
+<stringAttribute key="uuid" value="1D6BE45F-AC49-4AA8-8484-95F6187A1B06"/>
+</launchConfiguration>

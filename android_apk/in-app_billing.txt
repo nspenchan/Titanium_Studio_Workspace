@@ -1,0 +1,253 @@
+12-30 20:30:11.976: E/TiAPI(32582):  < -- > null
+12-30 20:30:12.006: E/TiAPI(32582):  < -- > null
+12-30 20:30:12.016: E/TiAPI(32582):  < -- > null
+12-30 20:30:21.766: E/TiAPI(32582):  < -- > null
+12-30 20:30:21.856: E/TiAPI(32582):  < -- > Request Id: 8217599240351285000
+12-30 20:30:21.856: E/TiAPI(32582): Response code: 0
+12-30 20:30:21.866: E/TiAPI(32582):  Request Id: 8217599240351285000
+12-30 20:30:21.866: E/TiAPI(32582):  Response code: 0
+12-30 20:30:21.916: E/TiExceptionHandler(32582): (main) [1243541,24252959] ----- Titanium Javascript Runtime Error -----
+12-30 20:30:21.916: E/TiExceptionHandler(32582): (main) [0,24252959] - In ui/common/Billing.js:1,69
+12-30 20:30:21.916: E/TiExceptionHandler(32582): (main) [0,24252959] - Message: Uncaught ReferenceError: restorePurchases is not defined
+12-30 20:30:21.916: E/TiExceptionHandler(32582): (main) [0,24252959] - Source: n(){o(L("Restore_Transactions"));var e=l.restoreTransactions();s(e),restorePur
+12-30 20:30:21.916: E/V8Exception(32582): Exception occurred at ui/common/Billing.js:1: Uncaught ReferenceError: restorePurchases is not defined
+12-30 20:30:22.566: E/TiAPI(32582):  < -- > PURCHASE STATE CHANGED CALLED {"nonce":-8594222245179201065,"orders":[]} TgJ+c+7H+RgHIg+Muw8rKKURjwXY8WSotjNPVqIkNxhJIe1k7kFBz8Ko3Hy4wNsy0QTNmHGJk3OkM9SYNjMKPqR5yVr4BRxIMA24aC7clyIK1nstLG7oXsfxcsHGZ03zoWVjD+3RTwwlQzPurMfuXHOQ1NRLUQXANYn9hKLtlUEeoBTe1N+FeCeKqgaM02tcdBT95a4ZQyIzLmJjP/JYjCicLfDtn5kRfoM2O+2ronsoUPNx8tpk/oxC93RrtetMbxcGwOoclF9Lw7j6UBNnLCOG7wer0zQoIan4Rq7l9hK2x1YxGXMYMNkvxQ0mssyaSHJaxvOyffQPdO6jNUdtkA==
+12-30 20:30:22.566: E/TiAPI(32582): SECURITY RESULT 0
+12-30 20:30:22.566: E/TiAPI(32582):  PURCHASE STATE CHANGED CALLED
+12-30 20:30:22.566: E/TiAPI(32582):  Signature Verification Result:
+12-30 20:30:22.566: E/TiAPI(32582): SIGNATURE VERIFIED
+12-30 20:30:22.576: E/TiAPI(32582):  Signed Data:
+12-30 20:30:22.576: E/TiAPI(32582): {"nonce":-8594222245179201065,"orders":[]}
+12-30 20:30:22.576: E/TiAPI(32582):  < -- > PURCHASE STATE CHANGED CALLED {"nonce":-8594222245179201065,"orders":[]} TgJ+c+7H+RgHIg+Muw8rKKURjwXY8WSotjNPVqIkNxhJIe1k7kFBz8Ko3Hy4wNsy0QTNmHGJk3OkM9SYNjMKPqR5yVr4BRxIMA24aC7clyIK1nstLG7oXsfxcsHGZ03zoWVjD+3RTwwlQzPurMfuXHOQ1NRLUQXANYn9hKLtlUEeoBTe1N+FeCeKqgaM02tcdBT95a4ZQyIzLmJjP/JYjCicLfDtn5kRfoM2O+2ronsoUPNx8tpk/oxC93RrtetMbxcGwOoclF9Lw7j6UBNnLCOG7wer0zQoIan4Rq7l9hK2x1YxGXMYMNkvxQ0mssyaSHJaxvOyffQPdO6jNUdtkA==
+12-30 20:30:22.576: E/TiAPI(32582): SECURITY RESULT 0
+12-30 20:30:22.576: E/TiAPI(32582):  PURCHASE STATE CHANGED CALLED
+12-30 20:30:22.576: E/TiAPI(32582):  Signature Verification Result:
+12-30 20:30:22.576: E/TiAPI(32582): SIGNATURE VERIFIED
+12-30 20:30:22.576: E/TiAPI(32582):  Signed Data:
+12-30 20:30:22.576: E/TiAPI(32582): {"nonce":-8594222245179201065,"orders":[]}
+12-30 20:30:22.586: E/TiAPI(32582):  < -- > RESPONSE CALLED 82175992403512850000
+12-30 20:30:22.586: E/TiAPI(32582):  RESPONSE CALLED 
+12-30 20:30:22.586: E/TiAPI(32582): Request Id:
+12-30 20:30:22.586: E/TiAPI(32582): 8217599240351285000 
+12-30 20:30:22.586: E/TiAPI(32582): Response Code:OK
+12-30 20:30:22.586: E/TiAPI(32582):  < -- > RESPONSE CALLED 82175992403512850000
+12-30 20:30:22.586: E/TiAPI(32582):  RESPONSE CALLED 
+12-30 20:30:22.586: E/TiAPI(32582): Request Id:
+12-30 20:30:22.586: E/TiAPI(32582): 8217599240351285000 
+12-30 20:30:22.586: E/TiAPI(32582): Response Code:OK
+12-30 20:30:57.956: E/MP3Extractor(124): Unable to resync. Signalling end of stream.
+12-30 20:31:05.946: E/TiAPI(32582):  !!!
+12-30 20:31:05.946: E/TiAPI(32582):  !!! WARNING : Use of unsupported constant Ti.UI.iPhone.ActivityIndicatorStyle.BIG !!!
+12-30 20:31:05.946: E/TiAPI(32582):  !!!
+12-30 20:31:05.946: E/TiAPI(32582):  1
+12-30 20:31:05.976: E/TiAPI(32582):  < -- > null
+12-30 20:31:05.996: E/TiAPI(32582):  < -- > null
+12-30 20:31:05.996: E/TiAPI(32582):  < -- > null
+12-30 20:31:05.996: E/TiAPI(32582):  < -- > null
+12-30 20:31:15.676: E/TiAPI(32582):  < -- > null
+12-30 20:31:15.696: E/TiAPI(32582):  < -- > Request Id: 4126716316554255400
+12-30 20:31:15.696: E/TiAPI(32582): Response code: 0
+12-30 20:31:15.696: E/TiAPI(32582):  Request Id: 4126716316554255400
+12-30 20:31:15.696: E/TiAPI(32582):  Response code: 0
+12-30 20:31:15.726: E/TiExceptionHandler(32582): (main) [18305,24306768] ----- Titanium Javascript Runtime Error -----
+12-30 20:31:15.726: E/TiExceptionHandler(32582): (main) [0,24306768] - In ui/common/Billing.js:1,69
+12-30 20:31:15.726: E/TiExceptionHandler(32582): (main) [0,24306768] - Message: Uncaught ReferenceError: restorePurchases is not defined
+12-30 20:31:15.726: E/TiExceptionHandler(32582): (main) [0,24306768] - Source: n(){o(L("Restore_Transactions"));var e=l.restoreTransactions();s(e),restorePur
+12-30 20:31:15.726: E/V8Exception(32582): Exception occurred at ui/common/Billing.js:1: Uncaught ReferenceError: restorePurchases is not defined
+12-30 20:31:16.306: E/TiAPI(32582):  < -- > PURCHASE STATE CHANGED CALLED {"nonce":-2333850284258350640,"orders":[]} ji7WE7oOq2XFX9xAE/poFZxFLo5ppuGoBu3Dlh0OHtMbRYmcPMkwx/hRO4D0+bdknD+0SLFQ2UFxZmYBxvd07RrwpV39y4ie68apq4WTn5KTG3oRcx4VdRY/HvnAqGhuLuVloy6oT+KVF2zZnkoaPsANG8CMbvGrPAH+hNq5miPxR6NQLJzB5AXKbrIVrbXpF2SDEQiURCAoCweOc4I28hbjy+0lBJ59b2oISrajZs/5TocmV31Y2gVig3eAFnEG5mv/T17ym4Vuyaa8HsK6qCd6yoYKBM0cxlAVW01ekfrubhjLq+XruNao4LLBus+M5uVgBvl71KenKN5LX6yqRg==
+12-30 20:31:16.306: E/TiAPI(32582): SECURITY RESULT 0
+12-30 20:31:16.316: E/TiAPI(32582):  PURCHASE STATE CHANGED CALLED
+12-30 20:31:16.316: E/TiAPI(32582):  Signature Verification Result:
+12-30 20:31:16.316: E/TiAPI(32582): SIGNATURE VERIFIED
+12-30 20:31:16.316: E/TiAPI(32582):  Signed Data:
+12-30 20:31:16.316: E/TiAPI(32582): {"nonce":-2333850284258350640,"orders":[]}
+12-30 20:31:16.316: E/TiAPI(32582):  < -- > PURCHASE STATE CHANGED CALLED {"nonce":-2333850284258350640,"orders":[]} ji7WE7oOq2XFX9xAE/poFZxFLo5ppuGoBu3Dlh0OHtMbRYmcPMkwx/hRO4D0+bdknD+0SLFQ2UFxZmYBxvd07RrwpV39y4ie68apq4WTn5KTG3oRcx4VdRY/HvnAqGhuLuVloy6oT+KVF2zZnkoaPsANG8CMbvGrPAH+hNq5miPxR6NQLJzB5AXKbrIVrbXpF2SDEQiURCAoCweOc4I28hbjy+0lBJ59b2oISrajZs/5TocmV31Y2gVig3eAFnEG5mv/T17ym4Vuyaa8HsK6qCd6yoYKBM0cxlAVW01ekfrubhjLq+XruNao4LLBus+M5uVgBvl71KenKN5LX6yqRg==
+12-30 20:31:16.316: E/TiAPI(32582): SECURITY RESULT 0
+12-30 20:31:16.316: E/TiAPI(32582):  PURCHASE STATE CHANGED CALLED
+12-30 20:31:16.316: E/TiAPI(32582):  Signature Verification Result:
+12-30 20:31:16.316: E/TiAPI(32582): SIGNATURE VERIFIED
+12-30 20:31:16.316: E/TiAPI(32582):  Signed Data:
+12-30 20:31:16.316: E/TiAPI(32582): {"nonce":-2333850284258350640,"orders":[]}
+12-30 20:31:16.316: E/TiAPI(32582):  < -- > PURCHASE STATE CHANGED CALLED {"nonce":-2333850284258350640,"orders":[]} ji7WE7oOq2XFX9xAE/poFZxFLo5ppuGoBu3Dlh0OHtMbRYmcPMkwx/hRO4D0+bdknD+0SLFQ2UFxZmYBxvd07RrwpV39y4ie68apq4WTn5KTG3oRcx4VdRY/HvnAqGhuLuVloy6oT+KVF2zZnkoaPsANG8CMbvGrPAH+hNq5miPxR6NQLJzB5AXKbrIVrbXpF2SDEQiURCAoCweOc4I28hbjy+0lBJ59b2oISrajZs/5TocmV31Y2gVig3eAFnEG5mv/T17ym4Vuyaa8HsK6qCd6yoYKBM0cxlAVW01ekfrubhjLq+XruNao4LLBus+M5uVgBvl71KenKN5LX6yqRg==
+12-30 20:31:16.316: E/TiAPI(32582): SECURITY RESULT 0
+12-30 20:31:16.316: E/TiAPI(32582):  PURCHASE STATE CHANGED CALLED
+12-30 20:31:16.316: E/TiAPI(32582):  Signature Verification Result:
+12-30 20:31:16.316: E/TiAPI(32582): SIGNATURE VERIFIED
+12-30 20:31:16.316: E/TiAPI(32582):  Signed Data:
+12-30 20:31:16.316: E/TiAPI(32582): {"nonce":-2333850284258350640,"orders":[]}
+12-30 20:31:16.316: E/TiAPI(32582):  < -- > RESPONSE CALLED 41267163165542554000
+12-30 20:31:16.316: E/TiAPI(32582):  RESPONSE CALLED 
+12-30 20:31:16.316: E/TiAPI(32582): Request Id:
+12-30 20:31:16.316: E/TiAPI(32582): 4126716316554255400 
+12-30 20:31:16.316: E/TiAPI(32582): Response Code:OK
+12-30 20:31:16.316: E/TiAPI(32582):  < -- > RESPONSE CALLED 41267163165542554000
+12-30 20:31:16.316: E/TiAPI(32582):  RESPONSE CALLED 
+12-30 20:31:16.316: E/TiAPI(32582): Request Id:
+12-30 20:31:16.316: E/TiAPI(32582): 4126716316554255400 
+12-30 20:31:16.316: E/TiAPI(32582): Response Code:OK
+12-30 20:31:16.316: E/TiAPI(32582):  < -- > RESPONSE CALLED 41267163165542554000
+12-30 20:31:16.316: E/TiAPI(32582):  RESPONSE CALLED 
+12-30 20:31:16.316: E/TiAPI(32582): Request Id:
+12-30 20:31:16.316: E/TiAPI(32582): 4126716316554255400 
+12-30 20:31:16.316: E/TiAPI(32582): Response Code:OK
+12-30 20:33:32.786: E/MPL-storeload(439): calData from inv_save_mpl_states, size=2
+12-30 20:34:21.916: E/Sensors(439): HAL:ERR Full data packet was not read
+12-30 20:34:21.916: E/MPL-storeload(439): calData from inv_save_mpl_states, size=2
+12-30 20:34:30.876: E/MPL-storeload(439): calData from inv_save_mpl_states, size=2
+12-30 20:34:39.916: E/MPL-storeload(439): calData from inv_save_mpl_states, size=2
+12-30 20:38:31.136: E/InputDispatcher(439): channel '42456bd0 com.kokucy.yontakuAnimal/org.appcelerator.titanium.TiActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+12-30 20:38:32.576: E/InstalledAppDetails(8015): Exception when retrieving package:com.kokucy.yontakuAnimal
+12-30 20:38:32.576: E/InstalledAppDetails(8015): android.content.pm.PackageManager$NameNotFoundException: com.kokucy.yontakuAnimal
+12-30 20:38:32.576: E/InstalledAppDetails(8015): 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:81)
+12-30 20:38:32.576: E/InstalledAppDetails(8015): 	at com.android.settings.applications.InstalledAppDetails.retrieveAppEntry(InstalledAppDetails.java:622)
+12-30 20:38:32.576: E/InstalledAppDetails(8015): 	at com.android.settings.applications.InstalledAppDetails.refreshUi(InstalledAppDetails.java:641)
+12-30 20:38:32.576: E/InstalledAppDetails(8015): 	at com.android.settings.applications.InstalledAppDetails.onActivityResult(InstalledAppDetails.java:535)
+12-30 20:38:32.576: E/InstalledAppDetails(8015): 	at android.app.Activity.dispatchActivityResult(Activity.java:5326)
+12-30 20:38:32.576: E/InstalledAppDetails(8015): 	at android.app.ActivityThread.deliverResults(ActivityThread.java:3363)
+12-30 20:38:32.576: E/InstalledAppDetails(8015): 	at android.app.ActivityThread.handleSendResult(ActivityThread.java:3410)
+12-30 20:38:32.576: E/InstalledAppDetails(8015): 	at android.app.ActivityThread.access$1100(ActivityThread.java:141)
+12-30 20:38:32.576: E/InstalledAppDetails(8015): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1304)
+12-30 20:38:32.576: E/InstalledAppDetails(8015): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+12-30 20:38:32.576: E/InstalledAppDetails(8015): 	at android.os.Looper.loop(Looper.java:137)
+12-30 20:38:32.576: E/InstalledAppDetails(8015): 	at android.app.ActivityThread.main(ActivityThread.java:5103)
+12-30 20:38:32.576: E/InstalledAppDetails(8015): 	at java.lang.reflect.Method.invokeNative(Native Method)
+12-30 20:38:32.576: E/InstalledAppDetails(8015): 	at java.lang.reflect.Method.invoke(Method.java:525)
+12-30 20:38:32.576: E/InstalledAppDetails(8015): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:737)
+12-30 20:38:32.576: E/InstalledAppDetails(8015): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:553)
+12-30 20:38:32.576: E/InstalledAppDetails(8015): 	at dalvik.system.NativeStart.main(Native Method)
+12-30 20:38:35.716: E/SuperSU(8903): isLaunchedBySettings: No
+12-30 20:38:38.726: E/SuperSU(9212): isLaunchedBySettings: No
+12-30 20:39:20.446: E/SuperSU(9646): isLaunchedBySettings: No
+12-30 20:39:21.316: E/ObjectHelper(9744): Can't find method:setCompatibilityInfo
+12-30 20:39:22.996: E/SuperSU(9883): isLaunchedBySettings: No
+12-30 20:40:00.206: E/AppsCustomizePagedView(10137): Widget ComponentInfo{com.kobobooks.android/com.kobobooks.android.widget.CurrentlyReading4x1WidgetProvider} can not fit on this device (707, 384)
+12-30 20:40:00.206: E/AppsCustomizePagedView(10137): Widget ComponentInfo{com.kobobooks.android/com.kobobooks.android.widget.ComicsWidgetProvider} can not fit on this device (707, 384)
+12-30 20:40:00.206: E/AppsCustomizePagedView(10137): Widget ComponentInfo{com.kobobooks.android/com.kobobooks.android.widget.StoreWidgetProvider} can not fit on this device (707, 799)
+12-30 20:40:04.976: E/AppsCustomizePagedView(10137): Widget ComponentInfo{com.kobobooks.android/com.kobobooks.android.widget.StoreWidgetProvider} can not fit on this device (707, 799)
+12-30 20:40:07.766: E/MPL-storeload(439): calData from inv_save_mpl_states, size=2
+12-30 20:40:10.396: E/BtOppRfcommListener(27919): Error accept connection java.io.IOException: read failed, socket might closed or timeout, read ret: -1
+12-30 20:40:10.396: E/bt-btif(27919): bta_jv_rfcomm_stop_server
+12-30 20:40:10.426: E/bt-btif(27919): bta_jv_rfcomm_stop_server
+12-30 20:40:10.506: E/UsbDebuggingManager(439): got -1 reading
+12-30 20:40:10.576: E/UsbDebuggingManager(439): Communication error: 
+12-30 20:40:10.576: E/UsbDebuggingManager(439): java.io.IOException: No such file or directory
+12-30 20:40:10.576: E/UsbDebuggingManager(439): 	at android.net.LocalSocketImpl.connectLocal(Native Method)
+12-30 20:40:10.576: E/UsbDebuggingManager(439): 	at android.net.LocalSocketImpl.connect(LocalSocketImpl.java:258)
+12-30 20:40:10.576: E/UsbDebuggingManager(439): 	at android.net.LocalSocket.connect(LocalSocket.java:108)
+12-30 20:40:10.576: E/UsbDebuggingManager(439): 	at com.android.server.usb.UsbDebuggingManager.listenToSocket(UsbDebuggingManager.java:79)
+12-30 20:40:10.576: E/UsbDebuggingManager(439): 	at com.android.server.usb.UsbDebuggingManager.run(UsbDebuggingManager.java:115)
+12-30 20:40:10.576: E/UsbDebuggingManager(439): 	at java.lang.Thread.run(Thread.java:841)
+12-30 20:40:10.626: E/bt-btif(27919): BTA AG is already disabled, ignoring ...
+12-30 20:40:10.716: E/bt-btif(27919): btif_disable_service: Current Services:0x140020
+12-30 20:40:10.736: E/BluetoothTethering(439): attempted to stop reverse tether with nothing tethered
+12-30 20:40:10.746: E/bt-btif(27919): btif_disable_service: Current Services:0x100020
+12-30 20:40:10.756: E/bt-btif(27919): btif_disable_service: Current Services:0x100020
+12-30 20:40:11.246: E/bt-btif(4728): btif_enable_service: current services:0x100020
+12-30 20:40:11.276: E/bt-btif(4728): btif_enable_service: current services:0x140020
+12-30 20:40:11.286: E/bt-btif(4728): btif_enable_service: current services:0x140020
+12-30 20:40:11.326: E/BtGatt.JNI(4728): ERROR: initializeNative(L701): Failed to get Bluetooth GATT Interface##
+12-30 20:40:12.476: E/bt-btif(4728): Calling BTA_HhEnable
+12-30 20:40:12.476: E/bt-btif(4728): ## btif_config_get assert section && *section && key && *key && name && *name && bytes && type failed at line:182 ##
+12-30 20:40:12.476: E/bt-btif(4728): btif_storage_get_adapter_property service_mask:0x140020
+12-30 20:40:12.506: E/BluetoothRemoteDevices(4728): devicePropertyChangedCallback: bdDevice: 04:F7:E4:68:72:67, value is empty for type: 10
+12-30 20:40:12.516: E/bt-btif(4728): ## btif_config_get assert section && *section && key && *key && name && *name && bytes && type failed at line:182 ##
+12-30 20:40:12.546: E/bt_h4(4728): vendor lib postload completed
+12-30 20:40:14.326: E/BluetoothPbapService(27919): Error create RfcommServerSocket java.io.IOException: Error: -1
+12-30 20:40:14.366: E/BtOppRfcommListener(27919): Error create RfcommServerSocket java.io.IOException: Error: -1
+12-30 20:40:14.396: E/BluetoothServiceJni(4728): SOCK FLAG = 1 ***********************
+12-30 20:40:14.416: E/BluetoothServiceJni(4728): SOCK FLAG = 0 ***********************
+12-30 20:40:14.636: E/BluetoothPbapService(27919): Error create RfcommServerSocket java.io.IOException: Error: -1
+12-30 20:40:14.686: E/BtOppRfcommListener(27919): Error create RfcommServerSocket java.io.IOException: Error: -1
+12-30 20:40:14.946: E/BluetoothPbapService(27919): Error create RfcommServerSocket java.io.IOException: Error: -1
+12-30 20:40:14.986: E/BtOppRfcommListener(27919): Error create RfcommServerSocket java.io.IOException: Error: -1
+12-30 20:40:15.246: E/BluetoothPbapService(27919): Error create RfcommServerSocket java.io.IOException: Error: -1
+12-30 20:40:15.296: E/BtOppRfcommListener(27919): Error create RfcommServerSocket java.io.IOException: Error: -1
+12-30 20:40:15.546: E/BluetoothPbapService(27919): Error create RfcommServerSocket java.io.IOException: Error: -1
+12-30 20:40:15.596: E/BtOppRfcommListener(27919): Error create RfcommServerSocket java.io.IOException: Error: -1
+12-30 20:40:15.846: E/BluetoothPbapService(27919): Error create RfcommServerSocket java.io.IOException: Error: -1
+12-30 20:40:15.906: E/BtOppRfcommListener(27919): Error create RfcommServerSocket java.io.IOException: Error: -1
+12-30 20:40:16.386: E/BluetoothPbapService(27919): Error create RfcommServerSocket java.io.IOException: Error: -1
+12-30 20:40:16.396: E/BtOppRfcommListener(27919): Error create RfcommServerSocket java.io.IOException: Error: -1
+12-30 20:40:16.696: E/BtOppRfcommListener(27919): Error create RfcommServerSocket java.io.IOException: Error: -1
+12-30 20:40:16.696: E/BluetoothPbapService(27919): Error create RfcommServerSocket java.io.IOException: Error: -1
+12-30 20:40:16.996: E/BtOppRfcommListener(27919): Error create RfcommServerSocket java.io.IOException: Error: -1
+12-30 20:40:16.996: E/BluetoothPbapService(27919): Error create RfcommServerSocket java.io.IOException: Error: -1
+12-30 20:40:17.306: E/BtOppRfcommListener(27919): Error create RfcommServerSocket java.io.IOException: Error: -1
+12-30 20:40:17.306: E/BluetoothPbapService(27919): Error create RfcommServerSocket java.io.IOException: Error: -1
+12-30 20:40:17.606: E/BtOppRfcommListener(27919): Error start listening after 10 try
+12-30 20:40:17.606: E/BluetoothPbapService(27919): Error to create listening socket after 10 try
+12-30 20:40:34.666: E/TiAPI(10454):  !!!
+12-30 20:40:34.666: E/TiAPI(10454):  !!! WARNING : Use of unsupported constant Ti.UI.iPhone.ActivityIndicatorStyle.BIG !!!
+12-30 20:40:34.666: E/TiAPI(10454):  !!!
+12-30 20:40:34.666: E/TiAPI(10454):  1
+12-30 20:40:34.696: E/TiAPI(10454):  < -- > null
+12-30 20:40:34.746: E/TiAPI(10454):  < -- > null
+12-30 20:40:49.726: E/TiAPI(10454):  < -- > null
+12-30 20:40:49.776: E/TiAPI(10454):  < -- > Request Id: 4831754025692480000
+12-30 20:40:49.776: E/TiAPI(10454): Response code: 0
+12-30 20:40:49.776: E/TiAPI(10454):  Request Id: 4831754025692480000
+12-30 20:40:49.776: E/TiAPI(10454):  Response code: 0
+12-30 20:40:49.886: E/Finsky(28920): [2483] FileBasedKeyValueStore.delete: Attempt to delete 'paramsky5faArii84jvuwv-Resew' failed!
+12-30 20:41:14.756: E/TiAPI(10454):  < -- > RESPONSE CALLED 48317540256924800000
+12-30 20:41:14.756: E/TiAPI(10454):  RESPONSE CALLED 
+12-30 20:41:14.756: E/TiAPI(10454): Request Id:
+12-30 20:41:14.756: E/TiAPI(10454): 4831754025692480000 
+12-30 20:41:14.756: E/TiAPI(10454): Response Code:OK
+12-30 20:42:23.296: E/TiAPI(10454):  NOTIFY CALLED 
+12-30 20:42:23.296: E/TiAPI(10454): Notify Id:
+12-30 20:42:23.296: E/TiAPI(10454): -4224581709397452306
+12-30 20:42:23.296: E/TiAPI(10454):  < -- > Request Id: 281398920411392130
+12-30 20:42:23.296: E/TiAPI(10454): Response code: 0
+12-30 20:42:23.306: E/TiAPI(10454):  Request Id: 281398920411392130
+12-30 20:42:23.306: E/TiAPI(10454):  Response code: 0
+12-30 20:42:23.776: E/TiAPI(10454):  NOTIFY CALLED 
+12-30 20:42:23.776: E/TiAPI(10454): Notify Id:
+12-30 20:42:23.776: E/TiAPI(10454): -4224581709397452306
+12-30 20:42:23.786: E/TiAPI(10454):  < -- > Request Id: 4500978893429544000
+12-30 20:42:23.786: E/TiAPI(10454): Response code: 0
+12-30 20:42:23.786: E/TiAPI(10454):  Request Id: 4500978893429544000
+12-30 20:42:23.786: E/TiAPI(10454):  Response code: 0
+12-30 20:42:23.796: E/TiAPI(10454):  < -- > PURCHASE STATE CHANGED CALLED {"nonce":-4406334966185868709,"orders":[{"notificationId":"-4224581709397452306","orderId":"12999763169054705758.1302542249092596","packageName":"com.kokucy.yontakuAnimal","productId":"yontakuanimal","purchaseTime":1388403671701,"purchaseState":0,"purchaseToken":"rimunebxtmytxwnrveksufrp"}]} FdOTQRsWwXd9UaD3eilLL3iTKRaXj/tNhTWU4jaailZoJBS1A3v7bNz15sA7EEhW9/TyWTcA8jbqU5JJpFmmVcua8AiiXVknN9LwWhkQ6+2hR/qzpTDzQAG557cSgAVJapNlkEJtQH/CDpw2khm7v6A4WuWqtJw1ZnBw8qQmXC2EjUV/SPYzsur9EzvbRBHVzemdXZyWi8Yehfdt+mQNi7CbHlgg9F+CMznk4IjVZJksX3MtenJIUnPs9GCeqBFqBs1jx3ixwNzedlBbDi68lFe4Apf1unKkXmfkX/GynOss3bFBC+sjcb9VtwzfalA9HMkmzOF0lVfQ++CxQnGkIQ==
+12-30 20:42:23.796: E/TiAPI(10454): SECURITY RESULT 0
+12-30 20:42:23.796: E/TiAPI(10454):  PURCHASE STATE CHANGED CALLED
+12-30 20:42:23.796: E/TiAPI(10454):  Signature Verification Result:
+12-30 20:42:23.796: E/TiAPI(10454): SIGNATURE VERIFIED
+12-30 20:42:23.796: E/TiAPI(10454):  Signed Data:
+12-30 20:42:23.796: E/TiAPI(10454): {"nonce":-4406334966185868709,"orders":[{"notificationId":"-4224581709397452306","orderId":"12999763169054705758.1302542249092596","packageName":"com.kokucy.yontakuAnimal","productId":"yontakuanimal","purchaseTime":1388403671701,"purchaseState":0,"purchaseToken":"rimunebxtmytxwnrveksufrp"}]}
+12-30 20:42:23.796: E/TiAPI(10454):  Marking as purchased: yontakuanimal
+12-30 20:42:23.816: E/TiAPI(10454):  < -- > Request Id: 1244896207588244500
+12-30 20:42:23.816: E/TiAPI(10454): Response code: 0
+12-30 20:42:23.816: E/TiAPI(10454):  Request Id: 1244896207588244500
+12-30 20:42:23.816: E/TiAPI(10454):  Response code: 0
+12-30 20:42:23.956: E/TiAPI(10454):  < -- > RESPONSE CALLED 2813989204113921300
+12-30 20:42:23.956: E/TiAPI(10454):  RESPONSE CALLED 
+12-30 20:42:23.956: E/TiAPI(10454): Request Id:
+12-30 20:42:23.956: E/TiAPI(10454): 281398920411392130 
+12-30 20:42:23.956: E/TiAPI(10454): Response Code:OK
+12-30 20:42:24.166: E/TiAPI(10454):  < -- > PURCHASE STATE CHANGED CALLED {"nonce":-5274425521798461698,"orders":[{"notificationId":"-4224581709397452306","orderId":"12999763169054705758.1302542249092596","packageName":"com.kokucy.yontakuAnimal","productId":"yontakuanimal","purchaseTime":1388403671701,"purchaseState":0,"purchaseToken":"rimunebxtmytxwnrveksufrp"}]} gvF27nKZuNxhgug2rbQX6fU7Pabgtzuf3t+cp83eg015hLSQz1D/uzNRsj9ZJHDTh7Byd64oD63yzoXK+OUej8EJoM39sBp4/akmutv/DpYIGxDgleBM0sS/0GFmGyXvdwebTEeaaMjerEHWbObg1L/OLI0SKN3Bk9F5gIFNgXz6hHCRjcO4g8dUT4Q3A7T9mwPzXU9bKG6IW+zbXMbrHT1ryMzjADZginkLdHo4lJCcQq0/WZmLsqKbwa9/O4aK68o5CI8Tk/UqUtHbU7Bar0kziPbpexhIvGdejDtQMWszRMr1t8sU/hVe0EufqSS8e7R2BvclWI9CZTZTtbP/uw==
+12-30 20:42:24.166: E/TiAPI(10454): SECURITY RESULT 0
+12-30 20:42:24.166: E/TiAPI(10454):  PURCHASE STATE CHANGED CALLED
+12-30 20:42:24.166: E/TiAPI(10454):  Signature Verification Result:
+12-30 20:42:24.166: E/TiAPI(10454): SIGNATURE VERIFIED
+12-30 20:42:24.166: E/TiAPI(10454):  Signed Data:
+12-30 20:42:24.166: E/TiAPI(10454): {"nonce":-5274425521798461698,"orders":[{"notificationId":"-4224581709397452306","orderId":"12999763169054705758.1302542249092596","packageName":"com.kokucy.yontakuAnimal","productId":"yontakuanimal","purchaseTime":1388403671701,"purchaseState":0,"purchaseToken":"rimunebxtmytxwnrveksufrp"}]}
+12-30 20:42:24.196: E/TiAPI(10454):  < -- > Request Id: 8727419611100407000
+12-30 20:42:24.196: E/TiAPI(10454): Response code: 0
+12-30 20:42:24.196: E/TiAPI(10454):  Request Id: 8727419611100407000
+12-30 20:42:24.196: E/TiAPI(10454):  Response code: 0
+12-30 20:42:24.276: E/TiAPI(10454):  < -- > RESPONSE CALLED 45009788934295440000
+12-30 20:42:24.286: E/TiAPI(10454):  RESPONSE CALLED 
+12-30 20:42:24.286: E/TiAPI(10454): Request Id:
+12-30 20:42:24.286: E/TiAPI(10454): 4500978893429544000 
+12-30 20:42:24.286: E/TiAPI(10454): Response Code:OK
+12-30 20:42:24.616: E/TiAPI(10454):  < -- > RESPONSE CALLED 87274196111004070000
+12-30 20:42:24.616: E/TiAPI(10454):  RESPONSE CALLED 
+12-30 20:42:24.616: E/TiAPI(10454): Request Id:
+12-30 20:42:24.616: E/TiAPI(10454): 8727419611100407000 
+12-30 20:42:24.616: E/TiAPI(10454): Response Code:OK
+12-30 20:42:24.706: E/TiAPI(10454):  < -- > RESPONSE CALLED 12448962075882445000
+12-30 20:42:24.706: E/TiAPI(10454):  RESPONSE CALLED 
+12-30 20:42:24.706: E/TiAPI(10454): Request Id:
+12-30 20:42:24.706: E/TiAPI(10454): 1244896207588244500 
+12-30 20:42:24.706: E/TiAPI(10454): Response Code:OK
+12-30 20:44:44.396: E/MPL-storeload(439): calData from inv_save_mpl_states, size=2

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.appcelerator.titanium.mobile.ui.ios.installer.launchConfigurationType">
+<booleanAttribute key="ATTR_MINIFY" value="true"/>
+<stringAttribute key="ATTR_PROJECT_NAME" value="yontakuAnimal"/>
+<stringAttribute key="ATTR_TITANIUM_DEPLOY_TYPE" value="development"/>
+<stringAttribute key="appid" value="com.kokucy.yontakuAnimal"/>
+<stringAttribute key="certificate" value="YUKIKO NAGAOKA (DFL8A95U39)"/>
+<stringAttribute key="debug_config" value="::1386339217503:172.20.10.5,192.168.2.103"/>
+<stringAttribute key="debug_hosts" value="172.20.10.5,192.168.2.103"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/yontakuAnimal"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.debug.core.capture_output" value="true"/>
+<booleanAttribute key="org.eclipse.debug.ui.ATTR_LAUNCH_IN_BACKGROUND" value="true"/>
+<stringAttribute key="process_factory_id" value="com.appcelerator.titanium.ui.logLevelFilteringProcessFactory"/>
+<stringAttribute key="sdk_version" value="7.0"/>
+<stringAttribute key="uuid" value="752613AE-40FA-49F3-9AF1-17E05D50CCE5"/>
+</launchConfiguration>

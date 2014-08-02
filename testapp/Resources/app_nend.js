@@ -1,0 +1,67 @@
+
+var win = Ti.UI.createWindow({
+    backgroundColor:'white'
+});
+win.open();
+
+var ad = require('net.nend');
+var adView;
+if(Ti.Platform.osname === 'android'){
+    adView = ad.createView({
+        spotId: 3174,
+        apiKey: "c5cb8bc474345961c6e7a9778c947957ed8e1e4f",
+        width: 320,
+        height: 50,
+        bottom: 0
+    });
+}else{
+    adView = ad.createView({
+        spotId: 3172,
+        apiKey: "a6eca9dd074372c898dd1df549301f277c53f2b9",
+        width: 320,
+        height: 50,
+        bottom: 0
+    });
+}
+
+// 受信成功通知
+adView.addEventListener('receive',function(e){
+    Ti.API.info('receive');
+});
+// 受信エラー通知
+adView.addEventListener('error',function(e){
+    Ti.API.info('error');
+});
+// クリック通知
+adView.addEventListener('click',function(e){
+    Ti.API.info('click');
+});
+
+//##################################
+
+var btnLayout = Ti.UI.createView({
+    layout: 'horizontal',
+});
+
+// 広告リロード停止ボタン
+var pauseBtn = Ti.UI.createButton({
+   title: 'pause', 
+   width: '50%'
+});
+pauseBtn.addEventListener('click', function(e) {
+    adView.pause();
+});
+
+// 広告リロード再開ボタン
+var resumeBtn = Ti.UI.createButton({
+   title: 'resume', 
+   width: '50%'
+});
+resumeBtn.addEventListener('click', function(e) {
+    adView.resume();
+});
+
+btnLayout.add(pauseBtn);
+btnLayout.add(resumeBtn);
+win.add(btnLayout);
+win.add(adView);

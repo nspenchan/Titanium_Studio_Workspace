@@ -1,0 +1,1 @@
+module.exports = [{"isApi":true,"priority":1000.0002,"key":"Window","style":{backgroundColor:"white",}},{"isId":true,"priority":100000.0003,"key":"l","style":{bottom:20,width:Ti.UI.SIZE,height:Ti.UI.SIZE,color:"#999",}},{"isId":true,"priority":100000.0004,"key":"imageView","style":{image:"/images/apple_logo.jpg",width:24,height:24,top:100,}}];

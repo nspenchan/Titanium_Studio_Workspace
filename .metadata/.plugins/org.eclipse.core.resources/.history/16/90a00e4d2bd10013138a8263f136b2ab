@@ -1,0 +1,227 @@
+function Language(win, title, bgColor, dbName, db1, label00) {
+	var top = 0;
+	var lang, lang1;
+	var column = Titanium.App.Properties.getString('column');
+	
+	if(Ti.Platform.osname=='android'){
+		var osname = Ti.Platform.osname,
+		height = Ti.Platform.displayCaps.platformHeight / Ti.Platform.displayCaps.logicalDensityFactor,
+		width = Ti.Platform.displayCaps.platformWidth / Ti.Platform.displayCaps.logicalDensityFactor;
+	}else{
+		var osname = Ti.Platform.osname,
+		height = Ti.Platform.displayCaps.platformHeight,
+		width = Ti.Platform.displayCaps.platformWidth;
+	}
+	//create object instance, a parasitic subclass of Observable
+	var self = Ti.UI.createView({
+		backgroundColor:'#000',
+	});
+	
+	function scale(dimension) {
+		return Math.round(dimension *  Ti.App.Properties.getDouble('osZoom') * Ti.App.Properties.getDouble('selfZoom') * Ti.Platform.displayCaps.platformWidth / 320);
+	}
+	
+	var arrayLanguage = ['en', 'ja', 'zh', 'ko', 'ru', 'ar', 'el', 'vi', 'tr', 'th', 'pt', 'de', 'fa', 'it', 'fr', 'es', 'id', 'sv', 'uk', 'ro', 'no', 'hi', 'he', 'da', 'is', 'ga', 'pl', 'nl', 'sw', 'ne', 'hu', 'bg'];
+	
+	var view = Titanium.UI.createView({
+		width:Ti.UI.FILL,
+	    height:scale(60),
+	    top:top,
+	});
+	self.add(view);
+	
+	var label = Titanium.UI.createLabel({
+		color:'#fff',
+		backgroundColor:bgColor,
+		text:L(title),
+		font:{fontSize:scale(25),fontFamily:'Helvetica Neue',fontWeight:'bold'},
+		textAlign:'center',
+		width:Ti.UI.FILL,
+	    height:scale(60),
+	    top:top,
+	});
+	view.add(label);
+	
+	if(scale(90)>width/2-10){
+		var buttonWidth = width/2-10;
+	}else{
+		var buttonWidth = scale(90);
+	}
+	
+	var back = Ti.UI.createButton({
+		color:'#fff',
+		backgroundColor:bgColor,
+		backgroundImage: '/assets/images/gray300x300_0.4.png',
+		title: L('Back'),
+		font:{fontSize:scale(20),fontFamily:'Helvetica Neue',fontWeight:'bold'},
+		textAlign : 'center',
+		height:scale(60),
+		width:buttonWidth,
+		left:scale(0),
+		borderColor:'#002400',
+		borderWidth:scale(1),
+		opacity:1,
+	});
+	view.add(back);
+		
+	back.addEventListener('click', function(e){
+		if(Titanium.App.Properties.getString('question')!=lang && Titanium.App.Properties.getString('answer')!=lang1){
+			Titanium.App.Properties.setString('question', lang);
+			Titanium.App.Properties.setString('answer', lang1);
+			label00.text = lang + ' > ' + lang1;
+		}else if(Titanium.App.Properties.getString('question')!=lang && Titanium.App.Properties.getString('answer')==lang1){
+			Titanium.App.Properties.setString('question', lang);
+			//Titanium.App.Properties.setString('answer', lang1);
+			label00.text = lang + ' > ' + lang1;
+		}else if(Titanium.App.Properties.getString('question')==lang && Titanium.App.Properties.getString('answer')!=lang1){
+			//Titanium.App.Properties.setString('question', lang);
+			Titanium.App.Properties.setString('answer', lang1);
+			label00.text = lang + ' > ' + lang1;
+		}
+		if(Titanium.App.Properties.getString('question')!=lang || Titanium.App.Properties.getString('answer')!=lang1){
+			var column = lang + lang1;
+			var column1 = column + '1';
+			Titanium.App.Properties.setString('column', column);
+			var columnArray = [];
+			var pragma = 'pragma table_info(hokudai_level'+ level + ')';
+			var columns = db1.execute(pragma);
+			while (columns.isValidRow()){
+				columnArray.push(columns.field(1));
+				columns.next();
+			}
+			Ti.API.info(columnArray);
+			columns.close();
+			if(columnArray.indexOf(column1)==-1){
+				var alter = 'ALTER TABLE hokudai_level' + level + ' ADD COLUMN ' + column + '1 TEXT';
+				db1.execute(alter);
+				var alter1 = 'ALTER TABLE hokudai_level' + level + ' ADD COLUMN ' + column + '2 TEXT';
+				db1.execute(alter1);
+				var alter2 = 'ALTER TABLE hokudai_level' + level + ' ADD COLUMN ' + column + '3 TEXT';
+				db1.execute(alter2);
+				var alter3 = 'ALTER TABLE hokudai_level' + level + ' ADD COLUMN ' + column + '4 TEXT';
+				db1.execute(alter3);
+			}
+		}
+		db1.close();
+		
+		setTimeout(function(){
+			win.remove(self);
+		}, 100);
+	});
+	
+	var rows = [];
+	
+	for(i=0; i<arrayLanguage.length; i++){
+		var row = Ti.UI.createTableViewRow({
+		    height:scale(60),
+		    backgroundColor:'transparent',
+		    lang:arrayLanguage[i],
+		});
+		
+		var label = Titanium.UI.createLabel({
+			color:'#000',
+			backgroundColor:'transparent',
+			text:L(arrayLanguage[i]),
+			font:{fontSize:scale(22),fontFamily:'Helvetica Neue'},
+			textAlign:'center',
+			width:width/2,
+			height:'auto',
+			//opacity:0.7,
+		});
+		row.add(label);
+		
+		if(Titanium.App.Properties.getString('question')==arrayLanguage[i]){
+			row.backgroundColor = 'pink';
+			lang = arrayLanguage[i];
+		}
+		
+		rows.push(row);
+	}
+	
+	var tableview = Titanium.UI.createTableView({
+		backgroundColor:'#fff',
+		top:top+scale(60),
+		width:width/2,
+		left:0
+	});
+	
+	tableview.addEventListener('click', function(e){
+		Ti.API.info(JSON.stringify(e));
+		lang = e.row.lang;
+		
+	    var section = tableview.data[0];
+		for(i=0; i<section.rows.length; i++){
+			if(i==e.index){
+				section.rows[i].backgroundColor = 'pink';
+			}else{
+				section.rows[i].backgroundColor = 'transparent';
+			}
+		}
+	});
+	
+    tableview.startLayout();
+    tableview.setData(rows);
+    tableview.finishLayout();
+    
+    self.add(tableview);
+    
+    var rows1 = [];
+    
+    for(i=0; i<arrayLanguage.length; i++){
+		var row = Ti.UI.createTableViewRow({
+		    height:scale(60),
+		    backgroundColor:'transparent',
+		    lang:arrayLanguage[i],
+		});
+		
+		var label = Titanium.UI.createLabel({
+			color:'#000',
+			backgroundColor:'transparent',
+			text:L(arrayLanguage[i]),
+			font:{fontSize:scale(22),fontFamily:'Helvetica Neue'},
+			textAlign:'center',
+			width:width/2,
+			height:'auto',
+			//opacity:0.7,
+		});
+		row.add(label);
+		
+		if(Titanium.App.Properties.getString('answer')==arrayLanguage[i]){
+			row.backgroundColor = 'pink';
+			lang1 = arrayLanguage[i];
+		}
+		
+		rows1.push(row);
+	}
+	
+	var tableview1 = Titanium.UI.createTableView({
+		backgroundColor:'#ffffa3',
+		top:top+scale(60),
+		width:width/2,
+		right:0
+	});
+	
+	tableview1.addEventListener('click', function(e){
+		Ti.API.info(JSON.stringify(e));
+		lang1 = e.row.lang;
+		
+	    var section = tableview1.data[0];
+		for(i=0; i<section.rows.length; i++){
+			if(i==e.index){
+				section.rows[i].backgroundColor = 'pink';
+			}else{
+				section.rows[i].backgroundColor = 'transparent';
+			}
+		}
+	});
+	
+    tableview1.startLayout();
+    tableview1.setData(rows1);
+    tableview1.finishLayout();
+    
+    self.add(tableview1);
+	
+	return self;
+}
+
+module.exports = Language;

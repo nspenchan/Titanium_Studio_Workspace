@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;yontakuAnimal/Resources/assets/images/home.png&apos; to &apos;home_bg.png&apos;" description="Rename resource &apos;home.png&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Resources/assets/images/home.png" name="home_bg.png" stamp="1402074688056" updateReferences="true"/>
+</session>

@@ -1,0 +1,372 @@
+//FirstView Component Constructor
+function Photo(win, from, word, text, imageName, defaultImage, speech0, firstMailTable, incorrectSound, changeHiragana, StrCheck_hiragana, 
+	decodeArray, arrayNewWord, replaceHiragana, replaceKatakana, dakutenArray, replace2) {
+		
+	var blob, f, forward, image, imageView, keyLabel, keyView, label, label2, label3, pHeight, pWidth, 
+	self, shift_x, shift_y, shutter, textArea, undoImage, coverView, height, width, osname, speechLang, 
+	newImageView;
+	
+	height = Ti.Platform.displayCaps.platformHeight,
+	width = Ti.Platform.displayCaps.platformWidth,
+	osname = Ti.Platform.osname;
+	
+	shutter = Titanium.Media.createSound({
+		// リモートURLも指定できます
+		// url : "http://www.nch.com.au/acm/8kmp38.wav"
+		url: '/assets/sound/se-033.mp3',
+		looping : false,
+	});
+	
+	if(Ti.Platform.locale=='ja'){
+		speechLang = 'ja-JP';
+	}else{
+		speechLang = 'en-US';
+	}
+	
+	//create object instance, a parasitic subclass of Observable
+	self = Ti.UI.createView({
+		backgroundColor:'transparent',//'#c1c1ff',
+	});
+	//Titanium.UI.iPhone.hideStatusBar();
+	
+	coverView = Ti.UI.createView({
+		backgroundColor:'#c1c1ff',
+		opacity:0.9,
+	});
+	self.add(coverView);
+
+	speech0.startSpeaking({
+		text:L('select_photo_') + text + L('from_photo_library'),
+		voice:speechLang,
+		rate:0.1,
+	});
+	
+	undoImage = Ti.UI.createImageView({
+		image:'/assets/images/Undo.png',
+		height:80,
+		width:80,
+		top:20,
+		left:40,
+	});
+	
+	undoImage.addEventListener('click', function(e) {
+		win.remove(self);
+	});
+	
+	label = Ti.UI.createLabel({
+		height:60,
+		width:60,
+		borderRadius:30,
+		color:'#000000',
+		backgroundColor:'#fff',
+		font:{fontSize:35, fontFamily:'Helvetica Neue', fontWeight:'bold'},
+		text:text,
+		textAlign:'center',
+		top:5,
+		borderColor:'#000',
+		borderWidth:1,
+	});
+	
+	label2 = Ti.UI.createLabel({
+		height:100,
+		width:width,
+		borderRadius:30,
+		color:'#000000',
+		backgroundColor:'transparent',
+		font:{fontSize:35, fontFamily:'Helvetica Neue', fontWeight:'bold'},
+		text:L('select_photo_') + text + L('from_photo_library'),
+		textAlign:'center',
+		bottom:100,
+	});
+			
+	label3 = Titanium.UI.createLabel({
+		color:'#000',
+		backgroundColor:'#fff',
+		text:L('Saved'),
+		font:{fontSize:20,fontFamily:'Helvetica Neue'},
+		textAlign:'center',
+		width:'auto',
+		height:'auto',
+		bottom:10,
+		right:10,
+		opacity:0.7,
+	});
+	
+	keyLabel = Ti.UI.createLabel({
+		text:word,
+		textAlign:'center',
+		height:80,
+		width:300,
+		color:'#000000',
+		backgroundColor:'#fff',
+		font:{fontSize:25, fontFamily:'Helvetica Neue', fontWeight:'bold'},
+		top:120,
+		left:20,
+		borderColor:'#000',
+		borderWidth:1,
+	});
+	
+	self.add(keyLabel);
+	
+	keyView = Ti.UI.createView({
+		color:'#000000',
+		height:300,
+		width:300,
+		top:200,
+		left:20,
+		borderColor:'#000',
+		borderWidth:1,
+	});
+	
+	image = Ti.UI.createImageView({
+		backgroundImage:'/assets/images/' + Titanium.App.Properties.getString('template') + '/' + imageName + '.png',
+		height:290,
+		width:290,
+		top:5,
+		right:5,
+		//borderColor:'#000',
+		//borderWidth:1,
+	});
+			
+	newImageView = Ti.UI.createImageView({
+		width:300,
+		height:300,
+		//image:blob,
+		top:200,
+		right:20,
+		borderColor:'#000',
+		borderWidth:1,
+	});
+	
+	if(from=='Tools'){
+		label.width = 500;
+		image.image = defaultImage.image;
+	}
+	
+	forward = Ti.UI.createImageView({
+		backgroundImage:'/assets/images/Forward.png',
+		height:64,
+		width:64,
+		top:198,
+		//left:255,
+		//borderColor:'#000',
+		//borderWidth:1,
+	});
+	
+	textArea = Ti.UI.createLabel({
+		color: '#000',
+		backgroundColor:'#fff',
+		font: {fontSize:25, fontWeight:'bold'},
+		keyboardType: Ti.UI.KEYBOARD_DEFAULT,
+		returnKeyType: Ti.UI.RETURNKEY_GO,
+		textAlign: 'center',
+		top: 120,
+		right:20,
+		width: 300, 
+		height : 80,
+	});
+	
+	if(osname=='ipad'){
+		
+	}else{
+		
+	}
+	
+	self.add(undoImage);
+	self.add(label);
+	self.add(label2);
+	self.add(keyView);
+	keyView.add(image);
+	self.add(forward);
+	
+	Titanium.Media.openPhotoGallery({
+		success : function(event) {
+			shutter.play();
+			//alert('pictures:' + count1);
+			pHeight = event.media.height;
+			pWidth = event.media.width;
+			Ti.API.error('x:' + pWidth +'/y:' + pHeight);
+			if(pWidth>=pHeight){
+				shift_x = (pWidth-pHeight)/2;
+				blob = event.media.imageAsCropped({x:shift_x, y:0, width:pHeight, height:pHeight});	
+			}else if(pWidth<pHeight){
+				shift_y = (pHeight-pWidth)/2;
+				blob = event.media.imageAsCropped({x:0, y:shift_y, width:pWidth, height:pWidth});	
+			}
+			//blob.imageAsResized(160, 160);
+			/*
+			// アプリケーションデータディレクトリに出力する。
+			f = Ti.Filesystem.getFile(Titanium.Filesystem.applicationDataDirectory, imageName + ".png");
+			if (!f.exists()) {
+				f.createFile();
+			}
+			f.write(blob);
+			*/
+			
+			self.remove(label2);
+			
+			newImageView.image = blob;
+			self.add(newImageView);
+			
+			self.add(label3);
+			
+			if(from=='Tools'){
+				textArea.text = word,
+				textArea.borderColor = '#000',
+				textArea.borderWidth = 1;
+				
+				self.add(textArea);
+				
+				speech0.startSpeaking({
+					text:L('Saved'),
+					voice:speechLang,
+					rate:0.1,
+				});
+				
+				defaultImage.image = blob;
+				
+				section = firstMailTable.data[0];
+				children = section.rows[1].getChildren();
+				children[0].image = blob;
+				
+				setTimeout(function(){
+					blob = blob.imageAsResized(160,160);
+					f = Ti.Filesystem.getFile(Titanium.Filesystem.applicationDataDirectory, imageName + ".png");
+					if (!f.exists()) {
+						f.createFile();
+					}
+					f.write(blob);
+					win.remove(self);
+				}, 1000);
+
+			}else{//from=='FIrstView'
+				textArea.borderWidth =  3,
+				textArea.borderColor =  'red',
+				textArea.borderRadius =  5,
+				textArea.verticalAlign = Titanium.UI.TEXT_VERTICAL_ALIGNMENT_CENTER,
+				textArea.value =  L('enter_name_hiragana'),
+				textArea.center = 40;
+
+				interval = setInterval(function(){
+					if(textArea.backgroundColor=='#fff'){
+						textArea.backgroundColor = 'pink';
+					}else{
+						textArea.backgroundColor = '#fff';
+					}
+				}, 500);
+
+				self.add(textArea);
+
+				textArea._hintText = textArea.value;
+
+				textArea.addEventListener('focus',function(e){
+					if(e.source.value == e.source._hintText){
+						e.source.value = "";
+					}
+					clearInterval(interval);
+					setTimeout(function(){
+						textArea.backgroundColor = '#fff';
+					}, 500);
+				});
+				textArea.addEventListener('blur',function(e){
+					if(e.source.value==""){
+						e.source.value = e.source._hintText;
+					}
+					interval = setInterval(function(){
+						if(textArea.backgroundColor=='#fff'){
+							textArea.backgroundColor = 'pink';
+						}else{
+							textArea.backgroundColor = '#fff';
+						}
+					}, 500);
+				});
+
+				textArea.addEventListener('change',function(e){
+					Ti.API.info('change fired, value = ' + e.value + '\nfield value = ' + textArea.value);
+					word = e.value;
+				});
+				textArea.addEventListener('return',function(e){
+					blob = blob.imageAsResized(320, 320);
+		            var directory = Ti.Filesystem.getFile(Ti.Filesystem.applicationDataDirectory, Titanium.App.Properties.getString('template'));
+		            if(!directory.exists()) {
+		            	    directory.createDirectory();
+		            }
+					// アプリケーションデータディレクトリに出力する。
+					f = Ti.Filesystem.getFile(Titanium.Filesystem.applicationDataDirectory, Titanium.App.Properties.getString('template') + '/' + imageName + ".png");
+					if (!f.exists()) {
+						f.createFile();
+					}
+					f.write(blob);
+					Ti.API.info('return fired, value = ' + e.value);
+					word = e.value;
+					word = replaceHiragana(word);
+					wordTop = word.slice(0, 1);
+					if(dakutenArray.indexOf(wordTop)!=-1){//濁点付きでない
+						wordTop = replace2(wordTop).slice(0, 1);
+					}
+					if(StrCheck_hiragana(word)){
+						if(text == wordTop){
+							Ti.API.info(text + ' / ' + word);
+							Titanium.App.Properties.setString(imageName, word);
+							//Ti.API.info(imageName + ' set ' + Titanium.App.Properties.getString(imageName));
+							l = decodeArray[imageName][0];
+							m = decodeArray[imageName][1];
+							num = 5*l + m + 1;
+							Ti.API.info(l + ' / ' + m + ' / ' + word);
+							//Ti.API.info(arrayImages2[0][0]);
+							arrayNewWord[l][m] = word;
+							//Ti.API.info(arrayImages2[0][0]);
+							alert(L('photo_') + text + L('has_been_registered_the_name_of_') + word + L('photo_2'));
+							win.remove(self);
+							speech0.startSpeaking({
+								text:L('photo_') + text + L('has_been_registered_the_name_of_') + word + L('photo_2'),
+								voice:speechLang,
+								rate:0.1,
+							});
+							db = Ti.Database.open(Titanium.App.Properties.getString('template'));
+							update = 'UPDATE ' + Titanium.App.Properties.getString('template') + ' SET hiragana = 0, katakana = 0, newword = "' + word + '" WHERE id = ' + num;
+							db.execute(update);
+							db.close();
+							setTimeout(function(){
+								changeHiragana('settings');
+							}, 500);
+						}else{
+							alert(L('please_enter_a_name_starting_with') + text + L('starting_with'));
+							incorrectSound.play();
+							speech0.startSpeaking({
+								text:L('please_enter_a_name_starting_with') + text + L('starting_with'),
+								voice:speechLang,
+								rate:0.1,
+							});
+							textArea.value = '';
+						}
+					}else{
+						alert('all_hiragana');
+						incorrectSound.play();
+						textArea.value = '';
+					}
+				});
+
+				speech0.startSpeaking({
+					text:L('enter_name_hiragana2'),
+					voice:speechLang,
+					rate:0.1,
+				});
+			}
+		},
+		error : function(error) {
+		},
+		cancel : function() {
+			// キャンセル時の挙動
+			win.remove(self);
+		},
+		// 選択直後に拡大縮小移動をするか否かのフラグ
+		allowEditing : true,
+		// 選択可能なメディア種別を配列で指定
+		mediaTypes : [Ti.Media.MEDIA_TYPE_PHOTO],
+	});
+
+	return self;
+}
+
+module.exports = Photo;

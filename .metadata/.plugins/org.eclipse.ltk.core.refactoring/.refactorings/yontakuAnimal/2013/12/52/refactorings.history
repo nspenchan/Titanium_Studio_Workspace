@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;yontakuAnimal/Resources/ui/common/Photo_android.js&apos; to &apos;Camera.js&apos;" description="Rename resource &apos;Photo_android.js&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Resources/ui/common/Photo_android.js" name="Camera.js" stamp="1388142008228" updateReferences="true"/>
+</session>

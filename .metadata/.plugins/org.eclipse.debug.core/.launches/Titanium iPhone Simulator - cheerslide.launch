@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.appcelerator.titanium.mobile.ui.ios.simulator.launchConfigurationType">
+<booleanAttribute key="ATTR_CLEAN_BEFORE_LAUNCH" value="false"/>
+<stringAttribute key="ATTR_LOG_LEVEL" value="Info"/>
+<stringAttribute key="ATTR_PROJECT_NAME" value="cheerslide"/>
+<stringAttribute key="device_id" value="iPhone"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/cheerslide"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<stringAttribute key="process_factory_id" value="com.appcelerator.titanium.ui.logLevelFilteringProcessFactory"/>
+<stringAttribute key="sdk_version" value="7.0"/>
+<stringAttribute key="simulator_debug_config" value="172.20.10.9:52026"/>
+<stringAttribute key="simulator_version" value="6.1"/>
+</launchConfiguration>

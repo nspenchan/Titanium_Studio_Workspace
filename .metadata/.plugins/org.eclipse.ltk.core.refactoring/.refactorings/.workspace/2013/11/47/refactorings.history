@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;cheerslide/Resources/ui/tabgroup.js&apos;" deleteContents="false" description="Delete resource &apos;cheerslide/Resources/ui/tabgroup.js&apos;" element1="/cheerslide/Resources/ui/tabgroup.js" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1384776419856"/>&#x0A;<refactoring comment="Delete 2 resources" deleteContents="false" description="Delete 2 resources" element1="/cheerslide/Resources/assets/images/no_sound_x.png" element2="/cheerslide/Resources/assets/images/no_sound.png" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1384942021014"/>
+</session>

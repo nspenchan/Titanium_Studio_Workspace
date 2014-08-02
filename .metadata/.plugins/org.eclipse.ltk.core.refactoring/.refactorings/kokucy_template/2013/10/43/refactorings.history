@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;kokucy_template/Resources/ui/memio.js&apos; to &apos;memo.js&apos;" description="Rename resource &apos;memio.js&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Resources/ui/memio.js" name="memo.js" stamp="1382250346326" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;kokucy_template/Resources/assets/images/splash_640x1136&apos; to &apos;splash.jpg&apos;" description="Rename resource &apos;splash_640x1136&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Resources/assets/images/splash_640x1136" name="splash.jpg" stamp="1382623245877" updateReferences="true"/>
+</session>

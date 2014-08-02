@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;yontakuAnimal/Resources/ui/common/Webview.js&apos; to &apos;WebView.js&apos;" description="Rename resource &apos;Webview.js&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Resources/ui/common/Webview.js" name="WebView.js" stamp="1385815083868" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;yontakuAnimal/Resources/ui/common/WebView2.js&apos; to &apos;Store.js&apos;" description="Rename resource &apos;WebView2.js&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Resources/ui/common/WebView2.js" name="Store.js" stamp="1385823393405" updateReferences="true"/>
+</session>
